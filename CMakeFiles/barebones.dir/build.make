@@ -53,10 +53,10 @@ RM = /home/bbogale/package_managers/spack/opt/spack/linux-rhel7-power9le/gcc-9.2
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bbogale/hash_profiling/profiling
+CMAKE_SOURCE_DIR = /home/bbogale/hash_profiling/Kokkos_Hash_Profiling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bbogale/hash_profiling/profiling
+CMAKE_BINARY_DIR = /home/bbogale/hash_profiling/Kokkos_Hash_Profiling
 
 # Include any dependencies generated for this target.
 include CMakeFiles/barebones.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/barebones.dir/flags.make
 CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o: CMakeFiles/barebones.dir/flags.make
 CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o: src/profiling_kokkos_barebones.cpp
 CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o: CMakeFiles/barebones.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbogale/hash_profiling/profiling/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o"
-	/apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/gcc-9.2.0-l2piuopjr3pzlfz6ybwp2c5wnhe37n3f/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o -MF CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o.d -o CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o -c /home/bbogale/hash_profiling/profiling/src/profiling_kokkos_barebones.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bbogale/hash_profiling/Kokkos_Hash_Profiling/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o"
+	/apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/gcc-9.2.0-l2piuopjr3pzlfz6ybwp2c5wnhe37n3f/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o -MF CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o.d -o CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o -c /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/src/profiling_kokkos_barebones.cpp
 
 CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.i"
-	/apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/gcc-9.2.0-l2piuopjr3pzlfz6ybwp2c5wnhe37n3f/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bbogale/hash_profiling/profiling/src/profiling_kokkos_barebones.cpp > CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.i
+	/apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/gcc-9.2.0-l2piuopjr3pzlfz6ybwp2c5wnhe37n3f/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/src/profiling_kokkos_barebones.cpp > CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.i
 
 CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.s"
-	/apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/gcc-9.2.0-l2piuopjr3pzlfz6ybwp2c5wnhe37n3f/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bbogale/hash_profiling/profiling/src/profiling_kokkos_barebones.cpp -o CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.s
+	/apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/gcc-9.2.0-l2piuopjr3pzlfz6ybwp2c5wnhe37n3f/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/src/profiling_kokkos_barebones.cpp -o CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.s
 
 # Object files for target barebones
 barebones_OBJECTS = \
@@ -98,7 +98,7 @@ bin/barebones: /apps/spack/10-10-2020/opt/spack/linux-rhel7-power9le/gcc-9.2.0/g
 bin/barebones: /lib64/libpthread.so
 bin/barebones: /home/bbogale/package_managers/spack/var/spack/environments/kokkos_cpu/.spack-env/view/lib64/libkokkossimd.so.4.1.99
 bin/barebones: CMakeFiles/barebones.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bbogale/hash_profiling/profiling/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/barebones"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bbogale/hash_profiling/Kokkos_Hash_Profiling/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/barebones"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/barebones.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,6 +110,6 @@ CMakeFiles/barebones.dir/clean:
 .PHONY : CMakeFiles/barebones.dir/clean
 
 CMakeFiles/barebones.dir/depend:
-	cd /home/bbogale/hash_profiling/profiling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bbogale/hash_profiling/profiling /home/bbogale/hash_profiling/profiling /home/bbogale/hash_profiling/profiling /home/bbogale/hash_profiling/profiling /home/bbogale/hash_profiling/profiling/CMakeFiles/barebones.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bbogale/hash_profiling/Kokkos_Hash_Profiling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bbogale/hash_profiling/Kokkos_Hash_Profiling /home/bbogale/hash_profiling/Kokkos_Hash_Profiling /home/bbogale/hash_profiling/Kokkos_Hash_Profiling /home/bbogale/hash_profiling/Kokkos_Hash_Profiling /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/CMakeFiles/barebones.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/barebones.dir/depend
 

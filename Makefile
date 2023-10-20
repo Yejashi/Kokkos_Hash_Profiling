@@ -57,10 +57,10 @@ RM = /home/bbogale/package_managers/spack/opt/spack/linux-rhel7-power9le/gcc-9.2
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bbogale/hash_profiling/profiling
+CMAKE_SOURCE_DIR = /home/bbogale/hash_profiling/Kokkos_Hash_Profiling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bbogale/hash_profiling/profiling
+CMAKE_BINARY_DIR = /home/bbogale/hash_profiling/Kokkos_Hash_Profiling
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbogale/hash_profiling/profiling/CMakeFiles /home/bbogale/hash_profiling/profiling//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/CMakeFiles /home/bbogale/hash_profiling/Kokkos_Hash_Profiling//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbogale/hash_profiling/profiling/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

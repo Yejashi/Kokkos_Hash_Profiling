@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/bbogale/hash_profiling/profiling/src/profiling_kokkos_barebones.cpp" "CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o" "gcc" "CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o.d"
+  "/home/bbogale/hash_profiling/Kokkos_Hash_Profiling/src/profiling_kokkos_barebones.cpp" "CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o" "gcc" "CMakeFiles/barebones.dir/src/profiling_kokkos_barebones.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
