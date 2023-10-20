@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.10)
+project(VECTORTOYS)
+
+find_package(Kokkos REQUIRED)
+find_package(caliper REQUIRED)
+
+set(OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+add_executable(kokkos_approach src/kokkos_approach.cpp)
+add_executable(simd_omp src/simd_omp.cpp)
+add_executable(parse_approach src/parse_approach.cpp)
+# add_executable(multi_array_approach src/multi_array_approach.cpp)
+
+set_target_properties(
+    kokkos_approach simd_omp parse_approach 
+    PROPERTIES 
+    RUNTIME_OUTPUT_DIRECTORY ${OUTPUT_DIRECTORY}
+)
+
+
+target_link_libraries(kokkos_approach caliper Kokkos::kokkos)
+# target_link_libraries(multi_array_approach caliper Kokkos::kokkos)
+target_link_libraries(parse_approach caliper Kokkos::kokkos)
+
+set(CMAKE_CXX_FLAGS "${CXXFLAGS}")
+set(CXXFLAGS  "-O3")
