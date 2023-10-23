@@ -3,7 +3,8 @@
 #include <Kokkos_Core.hpp>
 #include <kokkos_murmur3.hpp>
 #include <map_helpers.hpp>
-
+#include <math.h>
+#include <vector>
 
 /* Notes
     template<class Value, class ExecSpace>
@@ -69,9 +70,6 @@
         .exists
         .find
 
-    - Deletion Performance
-        Time required to delete elements from the table.
-        .erase
 
     - Collisions and Load Factor
         Rate of collisions along with load factor (stored/capacity)
@@ -89,12 +87,110 @@
             Deletion Perf
 
         15 iterations
+        10 20 30 40 50 60 70 80 90 
+
+    v100 5120
+    so 5120 insertions per kernel
 */
+
+void create_sample_data(Kokkos::View<NodeID*> sample_data) {
+    Kokkos::parallel_for("hash_insert", sample_data.extent(0), KOKKOS_LAMBDA(const int i) {
+        sample_data(i) = NodeID(2 + i * 12, 3 + i * 7);
+    });
+    Kokkos::fence();
+}
+
+void fill_until(DigestNodeIDDeviceMap device_hash, Kokkos::View<NodeID*> sample_data, int fill_size) {
+    // int fill_size = (percent_full * hash_capacity) / 100;
+
+    // printf("Hash Size: %d\n", hash_size);
+    // printf("Filling up hash table until %d%% capacity.\n", percent_full);
+    // printf("Final capacity = %d\n\n", capacity);
+    // printf("Initial size %d\n", device_hash.size());
+
+    //This need serious reevaluation -- speak with Nigel
+    auto policy = Kokkos::RangePolicy<>(0, fill_size);
+    Kokkos::parallel_for("hash_fill", policy, KOKKOS_LAMBDA(const int i) {
+        HashDigest digest;
+        hash(&(sample_data(i)), sizeof(sample_data(i)), digest.digest);
+        // device_hash.insert(digest, NodeID((i * 12), (i * 13)));
+        device_hash.insert(digest, sample_data(i));
+    });
+    Kokkos::fence();
+    // printf("Final size %d\n", device_hash.size());
+
+}
+
+void insertion_test(DigestNodeIDDeviceMap device_hash, Kokkos::View<NodeID*> sample_data, int starting_index, int num_insertions, int capacity, int percent_full) {
+    if(num_insertions < 5120) {
+        num_insertions = 5120;
+    }
+
+    std::string label = "Insertion Test -- Capacity = " + std::to_string(capacity)
+    + " -- Percent Full = " + std::to_string(percent_full) + "%";
+
+    auto policy = Kokkos::RangePolicy<>(starting_index, num_insertions);
+    Kokkos::parallel_for(label, policy, KOKKOS_LAMBDA(const int i) {
+        HashDigest digest;
+        hash(&(sample_data(i)), sizeof(sample_data(i)), digest.digest);
+        device_hash.insert(digest, sample_data(i));
+    });
+    Kokkos::fence();
+}
+
+void find_test(DigestNodeIDDeviceMap device_hash, Kokkos::View<NodeID*> sample_data, int starting_index, int num_finds, int capacity, int percent_full) {
+    if(num_finds < 5120) {
+        num_finds = 5120;
+    }
+    
+    std::string label = "Find Test -- Capacity = " + std::to_string(capacity)
+    + " -- Percent Full = " + std::to_string(percent_full) + "%";
+
+    auto policy = Kokkos::RangePolicy<>(starting_index, num_finds);
+    Kokkos::parallel_for(label, policy, KOKKOS_LAMBDA(const int i) {
+        HashDigest digest;
+        hash(&(sample_data(i)), sizeof(sample_data(i)), digest.digest);
+        device_hash.find(digest);
+    });
+    Kokkos::fence();
+}
+
 int main(int argc, char** argv) {
     Kokkos::initialize(argc, argv);
     {
-        DigestNodeIDDeviceMap device_hash;
-        device_hash.rehash(10000);
+        int capacity = 10000;
+        Kokkos::View<NodeID*> sample_data("sample_data", capacity * pow(2, 15));
+
+        // printf("Size of data %d\n", sample_data.extent(0));
+
+        create_sample_data(sample_data);
+
+        for(int i = 0; i < 15; ++i) {
+            // printf("Current hash size %d\n\n", size);
+
+            //Create a new hash
+            DigestNodeIDDeviceMap device_hash;
+            device_hash.rehash(capacity);
+            device_hash.clear(); //redundant
+            printf("Capacity %d\n", capacity);
+
+            //Test for different initial sizes
+            for (int j = 0; j < 9; ++j) {
+                int percent_full = 10 * (j + 1);
+                int num_insertions = capacity * 0.1;
+                int fill_size = (percent_full * capacity) / 100;
+
+                fill_until(device_hash, sample_data, fill_size);
+                insertion_test(device_hash, sample_data, fill_size, num_insertions, capacity, percent_full);
+                find_test(device_hash, sample_data, fill_size, num_insertions, capacity, percent_full);
+
+
+                device_hash.clear();
+            }
+
+
+            capacity *= 2;
+        }
 
 
 
@@ -112,31 +208,30 @@ int main(int argc, char** argv) {
 
 
 
+        // Kokkos::View<NodeID*> sample_data("sample_data", 10000);
 
-        Kokkos::View<NodeID*> sample_data("sample_data", 10000);
+        // //Create 10,000 elements
+        // Kokkos::parallel_for("hash_insert", sample_data.extent(0), KOKKOS_LAMBDA(const int i) {
+        //     sample_data(i) = NodeID(2 + i * 12, 3 + i * 7);
+        // });
+        // Kokkos::fence();
 
-        //Create 10,000 elements
-        Kokkos::parallel_for("hash_insert", sample_data.extent(0), KOKKOS_LAMBDA(const int i) {
-            sample_data(i) = NodeID(2 + i * 12, 3 + i * 7);
-        });
-        Kokkos::fence();
+        // Kokkos::parallel_for("hash_insert", 129, KOKKOS_LAMBDA(const int i) {
+        //     HashDigest digest;
+        //     hash(&(sample_data(i)), sizeof(sample_data(i)), digest.digest);
+        //     device_hash.insert(digest, NodeID(7, 1));
+        // });
+        // Kokkos::fence();
 
-        Kokkos::parallel_for("hash_insert", 129, KOKKOS_LAMBDA(const int i) {
-            HashDigest digest;
-            hash(&(sample_data(i)), sizeof(sample_data(i)), digest.digest);
-            device_hash.insert(digest, NodeID(7, 1));
-        });
-        Kokkos::fence();
+        // Kokkos::parallel_for("hash_insert", 1, KOKKOS_LAMBDA(const int i) {
+        //     auto capacity = device_hash.capacity(); //Device function
+        //     // auto size = device_hash.size();
+        //     printf("Capacity: %d\n", capacity);
+        //     // printf("Size: %d\n", size);
+        // });
 
-        Kokkos::parallel_for("hash_insert", 1, KOKKOS_LAMBDA(const int i) {
-            auto capacity = device_hash.capacity(); //Device function
-            // auto size = device_hash.size();
-            printf("Capacity: %d\n", capacity);
-            // printf("Size: %d\n", size);
-        });
-
-        auto size = device_hash.size();
-        printf("Size: %d\n", size);
+        // auto size = device_hash.size();
+        // printf("Size: %d\n", size);
 
 
     }
