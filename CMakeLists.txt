@@ -21,4 +21,4 @@ target_include_directories(murmur3 PRIVATE ${CMAKE_SOURCE_DIR}/include)
 target_link_libraries(barebones Kokkos::kokkos)
 target_link_libraries(murmur3 Kokkos::kokkos)
 
-set(CMAKE_CXX_FLAGS "${CXXFLAGS}")
+set(CMAKE_CXX_FLAGS "${CXXFLAGS} -O3")
