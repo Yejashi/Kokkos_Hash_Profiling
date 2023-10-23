@@ -8,6 +8,7 @@ struct alignas(16) HashDigest {
   uint8_t digest[16];
 };
 
+//maybe useless??
 KOKKOS_INLINE_FUNCTION
 uint32_t digest_to_u32(HashDigest& digest) {
   uint32_t* u32_ptr = (uint32_t*)(digest.digest);
@@ -101,6 +102,12 @@ struct digest_equal_to {
     return true;
   }
 };
+
+KOKKOS_FORCEINLINE_FUNCTION
+void hash(const void* data, uint64_t len, uint8_t* digest) {
+//  kokkos_md5::hash(data, len, digest);
+  kokkos_murmur3::hash(data, len, digest);
+}
 
 template<class Value, class ExecSpace>
 using DigestMap = Kokkos::UnorderedMap<HashDigest, Value, ExecSpace, digest_hash, digest_equal_to>;

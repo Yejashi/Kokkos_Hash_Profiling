@@ -3,7 +3,7 @@
 
 #include <cstring>
 #include <string>
-#include "map_helpers.hpp"
+// #include "map_helpers.hpp" //might be
 
 namespace kokkos_murmur3 {
   // MurmurHash3 was written by Austin Appleby, and is placed in the public
