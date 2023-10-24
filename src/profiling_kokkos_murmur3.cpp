@@ -105,26 +105,26 @@ void create_sample_data(Kokkos::View<uint32_t*> sample_data, Kokkos::View<HashDi
 }
 
 void fill_until(DigestNodeIDDeviceMap device_hash, Kokkos::View<uint32_t*> sample_data, Kokkos::View<HashDigest*> sample_digests, int fill_size) {
-    // int fill_size = (percent_full * hash_capacity) / 100;
-
-    // printf("Hash Size: %d\n", hash_size);
-    // printf("Filling up hash table until %d%% capacity.\n", percent_full);
-    // printf("Final capacity = %d\n\n", capacity);
-    // printf("Initial size %d\n", device_hash.size());
 
     //This need serious reevaluation -- speak with Nigel
+    int init_size = device_hash.size();
     auto policy = Kokkos::RangePolicy<>(0, fill_size);
     Kokkos::parallel_for("hash_fill", policy, KOKKOS_LAMBDA(const int i) {
-        // HashDigest digest;
-        // hash(&(sample_data(i)), sizeof(sample_data(i)), digest.digest);
         HashDigest digest = sample_digests(i);
         device_hash.insert(digest, NodeID(sample_data(i), 1));
     });
     Kokkos::fence();
+    int final_size = device_hash.size();
     // printf("Final size %d\n", device_hash.size());
+
+    printf("Fill -- S1:[ %d ] S2:[ %d ]\n", init_size, final_size);
 
 }
 
+/*
+    THe bug is because RangePOlicy expects (begin_index, end_index) instead of (begin_index, num_iterations)
+        I am a complete idiot...
+*/
 void insertion_test(DigestNodeIDDeviceMap device_hash, Kokkos::View<uint32_t*> sample_data, Kokkos::View<HashDigest*> sample_digests, int starting_index, int num_insertions, int capacity, int percent_full) {
     if(num_insertions < 5120) {
         num_insertions = 5120;
@@ -145,7 +145,7 @@ void insertion_test(DigestNodeIDDeviceMap device_hash, Kokkos::View<uint32_t*> s
     Kokkos::fence();
     double time = timer.seconds();
     int final_size = device_hash.size();
-    printf("%s T:[ %lf ] S1:[ %d ] S2:[ %d ]\n", label.c_str(), time, init_size, final_size);
+    printf("%s Num Insertions: %d T:[ %lf ] S1:[ %d ] S2:[ %d ]\n", label.c_str(), num_insertions, time, init_size, final_size);
 }
 
 void find_test(DigestNodeIDDeviceMap device_hash, Kokkos::View<uint32_t*> sample_data, Kokkos::View<HashDigest*> sample_digests, int starting_index, int num_finds, int capacity, int percent_full) {
@@ -218,27 +218,24 @@ int main(int argc, char** argv) {
         create_sample_data(sample_data,sample_digests);
 
   
-        for(int i = 0; i < 6; ++i) {
-            // printf("Current hash size %d\n\n", capacity);
-
+        for(int i = 0; i < 1; ++i) {
             //Create a new hash
             DigestNodeIDDeviceMap device_hash;
             device_hash.rehash(capacity);
 
             printf("Capacity %d\n", capacity);
 
-            //Test for different initial sizes
+            //Test for different initial fills
             for (int j = 0; j < 9; ++j) {
                 int percent_full = 10 * (j + 1);
                 int num_insertions = capacity * 0.1;
                 int fill_size = (percent_full * capacity) / 100;
-                printf("xxxNum Insertionsxxx: %d\n", num_insertions);
+
                 fill_until(device_hash, sample_data, sample_digests, fill_size);
                 insertion_test(device_hash, sample_data, sample_digests, fill_size, num_insertions, capacity, percent_full);
                 find_test(device_hash, sample_data, sample_digests,  fill_size, num_insertions, capacity, percent_full);
                 single_rep_insert_test(device_hash, sample_data, sample_digests, 0, num_insertions, capacity, percent_full);
                 multiple_rep_insert_test(device_hash, sample_data, sample_digests, num_insertions, capacity, percent_full);
-
 
                 device_hash.clear();
             }
