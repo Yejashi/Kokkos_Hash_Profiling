@@ -1,692 +1,540 @@
-KokkosP: Simple Kernel Timer Library Initialized (sequence is 0, version: 20211015)
-Capacity 10000
-Fill -- S1:[ 0 ] S2:[ 1000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 10% Num Insertions: 5120 T:[ 0.000071 ] S1:[ 1000 ] S2:[ 6120 ]
-Find Test -- Capacity = 10000 -- Percent Full = 10% T:[ 0.000034 ] S:[ 6120 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 10% T:[ 0.000036 ] S:[ 6120 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 10% T:[ 0.000058 ] S:[ 6120 ]
-Fill -- S1:[ 0 ] S2:[ 2000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 20% Num Insertions: 5120 T:[ 0.000068 ] S1:[ 2000 ] S2:[ 7120 ]
-Find Test -- Capacity = 10000 -- Percent Full = 20% T:[ 0.000032 ] S:[ 7120 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 20% T:[ 0.000032 ] S:[ 7120 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 20% T:[ 0.000057 ] S:[ 7120 ]
-Fill -- S1:[ 0 ] S2:[ 3000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 30% Num Insertions: 5120 T:[ 0.000065 ] S1:[ 3000 ] S2:[ 8120 ]
-Find Test -- Capacity = 10000 -- Percent Full = 30% T:[ 0.000031 ] S:[ 8120 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 30% T:[ 0.000033 ] S:[ 8120 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 30% T:[ 0.000062 ] S:[ 8120 ]
-Fill -- S1:[ 0 ] S2:[ 4000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 40% Num Insertions: 5120 T:[ 0.000066 ] S1:[ 4000 ] S2:[ 9120 ]
-Find Test -- Capacity = 10000 -- Percent Full = 40% T:[ 0.000030 ] S:[ 9120 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 40% T:[ 0.000031 ] S:[ 9120 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 40% T:[ 0.000058 ] S:[ 9120 ]
-Fill -- S1:[ 0 ] S2:[ 5000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 50% Num Insertions: 4999 T:[ 0.000079 ] S1:[ 5000 ] S2:[ 9999 ]
-Find Test -- Capacity = 10000 -- Percent Full = 50% T:[ 0.000030 ] S:[ 9999 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 50% T:[ 0.000032 ] S:[ 9999 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 50% T:[ 0.000057 ] S:[ 9999 ]
-Fill -- S1:[ 0 ] S2:[ 6000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 60% Num Insertions: 3999 T:[ 0.000069 ] S1:[ 6000 ] S2:[ 9999 ]
-Find Test -- Capacity = 10000 -- Percent Full = 60% T:[ 0.000032 ] S:[ 9999 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 60% T:[ 0.000032 ] S:[ 9999 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 60% T:[ 0.000057 ] S:[ 9999 ]
-Fill -- S1:[ 0 ] S2:[ 7000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 70% Num Insertions: 2999 T:[ 0.000068 ] S1:[ 7000 ] S2:[ 9999 ]
-Find Test -- Capacity = 10000 -- Percent Full = 70% T:[ 0.000030 ] S:[ 9999 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 70% T:[ 0.000032 ] S:[ 9999 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 70% T:[ 0.000060 ] S:[ 9999 ]
-Fill -- S1:[ 0 ] S2:[ 8000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 80% Num Insertions: 1999 T:[ 0.000067 ] S1:[ 8000 ] S2:[ 9999 ]
-Find Test -- Capacity = 10000 -- Percent Full = 80% T:[ 0.000030 ] S:[ 9999 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 80% T:[ 0.000031 ] S:[ 9999 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 80% T:[ 0.000058 ] S:[ 9999 ]
-Fill -- S1:[ 0 ] S2:[ 9000 ]
-Insertion Test -- Capacity = 10000 -- Percent Full = 90% Num Insertions: 999 T:[ 0.000065 ] S1:[ 9000 ] S2:[ 9999 ]
-Find Test -- Capacity = 10000 -- Percent Full = 90% T:[ 0.000030 ] S:[ 9999 ]
-Single Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 90% T:[ 0.000031 ] S:[ 9999 ]
-Multiple Repeated Insertion Test -- Capacity = 10000 -- Percent Full = 90% T:[ 0.000058 ] S:[ 9999 ]
-Capacity 20000
-Fill -- S1:[ 0 ] S2:[ 2000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 10% Num Insertions: 5120 T:[ 0.000067 ] S1:[ 2000 ] S2:[ 7120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 10% T:[ 0.000032 ] S:[ 7120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 10% T:[ 0.000032 ] S:[ 7120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 10% T:[ 0.000056 ] S:[ 7120 ]
-Fill -- S1:[ 0 ] S2:[ 4000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 20% Num Insertions: 5120 T:[ 0.000062 ] S1:[ 4000 ] S2:[ 9120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 20% T:[ 0.000031 ] S:[ 9120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 20% T:[ 0.000035 ] S:[ 9120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 20% T:[ 0.000058 ] S:[ 9120 ]
-Fill -- S1:[ 0 ] S2:[ 6000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 30% Num Insertions: 5120 T:[ 0.000062 ] S1:[ 6000 ] S2:[ 11120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 30% T:[ 0.000030 ] S:[ 11120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 30% T:[ 0.000032 ] S:[ 11120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 30% T:[ 0.000056 ] S:[ 11120 ]
-Fill -- S1:[ 0 ] S2:[ 8000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 40% Num Insertions: 5120 T:[ 0.000062 ] S1:[ 8000 ] S2:[ 13120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 40% T:[ 0.000030 ] S:[ 13120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 40% T:[ 0.000031 ] S:[ 13120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 40% T:[ 0.000056 ] S:[ 13120 ]
-Fill -- S1:[ 0 ] S2:[ 10000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 50% Num Insertions: 5120 T:[ 0.000064 ] S1:[ 10000 ] S2:[ 15120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 50% T:[ 0.000032 ] S:[ 15120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 50% T:[ 0.000032 ] S:[ 15120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 50% T:[ 0.000057 ] S:[ 15120 ]
-Fill -- S1:[ 0 ] S2:[ 12000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 60% Num Insertions: 5120 T:[ 0.000064 ] S1:[ 12000 ] S2:[ 17120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 60% T:[ 0.000031 ] S:[ 17120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 60% T:[ 0.000032 ] S:[ 17120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 60% T:[ 0.000057 ] S:[ 17120 ]
-Fill -- S1:[ 0 ] S2:[ 14000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 70% Num Insertions: 5120 T:[ 0.000066 ] S1:[ 14000 ] S2:[ 19120 ]
-Find Test -- Capacity = 20000 -- Percent Full = 70% T:[ 0.000030 ] S:[ 19120 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 70% T:[ 0.000031 ] S:[ 19120 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 70% T:[ 0.000057 ] S:[ 19120 ]
-Fill -- S1:[ 0 ] S2:[ 16000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 80% Num Insertions: 3999 T:[ 0.000068 ] S1:[ 16000 ] S2:[ 19999 ]
-Find Test -- Capacity = 20000 -- Percent Full = 80% T:[ 0.000030 ] S:[ 19999 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 80% T:[ 0.000031 ] S:[ 19999 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 80% T:[ 0.000058 ] S:[ 19999 ]
-Fill -- S1:[ 0 ] S2:[ 18000 ]
-Insertion Test -- Capacity = 20000 -- Percent Full = 90% Num Insertions: 1999 T:[ 0.000066 ] S1:[ 18000 ] S2:[ 19999 ]
-Find Test -- Capacity = 20000 -- Percent Full = 90% T:[ 0.000031 ] S:[ 19999 ]
-Single Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 90% T:[ 0.000032 ] S:[ 19999 ]
-Multiple Repeated Insertion Test -- Capacity = 20000 -- Percent Full = 90% T:[ 0.000056 ] S:[ 19999 ]
-Capacity 40000
-Fill -- S1:[ 0 ] S2:[ 4000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 10% Num Insertions: 5120 T:[ 0.000060 ] S1:[ 4000 ] S2:[ 9120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 10% T:[ 0.000030 ] S:[ 9120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 10% T:[ 0.000032 ] S:[ 9120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 10% T:[ 0.000057 ] S:[ 9120 ]
-Fill -- S1:[ 0 ] S2:[ 8000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 20% Num Insertions: 5120 T:[ 0.000063 ] S1:[ 8000 ] S2:[ 13120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 20% T:[ 0.000030 ] S:[ 13120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 20% T:[ 0.000032 ] S:[ 13120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 20% T:[ 0.000056 ] S:[ 13120 ]
-Fill -- S1:[ 0 ] S2:[ 12000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 30% Num Insertions: 5120 T:[ 0.000061 ] S1:[ 12000 ] S2:[ 17120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 30% T:[ 0.000032 ] S:[ 17120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 30% T:[ 0.000032 ] S:[ 17120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 30% T:[ 0.000056 ] S:[ 17120 ]
-Fill -- S1:[ 0 ] S2:[ 16000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 40% Num Insertions: 5120 T:[ 0.000061 ] S1:[ 16000 ] S2:[ 21120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 40% T:[ 0.000032 ] S:[ 21120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 40% T:[ 0.000033 ] S:[ 21120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 40% T:[ 0.000056 ] S:[ 21120 ]
-Fill -- S1:[ 0 ] S2:[ 20000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 50% Num Insertions: 5120 T:[ 0.000061 ] S1:[ 20000 ] S2:[ 25120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 50% T:[ 0.000030 ] S:[ 25120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 50% T:[ 0.000033 ] S:[ 25120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 50% T:[ 0.000058 ] S:[ 25120 ]
-Fill -- S1:[ 0 ] S2:[ 24000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 60% Num Insertions: 5120 T:[ 0.000062 ] S1:[ 24000 ] S2:[ 29120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 60% T:[ 0.000030 ] S:[ 29120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 60% T:[ 0.000032 ] S:[ 29120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 60% T:[ 0.000057 ] S:[ 29120 ]
-Fill -- S1:[ 0 ] S2:[ 28000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 70% Num Insertions: 5120 T:[ 0.000064 ] S1:[ 28000 ] S2:[ 33120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 70% T:[ 0.000030 ] S:[ 33120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 70% T:[ 0.000032 ] S:[ 33120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 70% T:[ 0.000058 ] S:[ 33120 ]
-Fill -- S1:[ 0 ] S2:[ 32000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 80% Num Insertions: 5120 T:[ 0.000069 ] S1:[ 32000 ] S2:[ 37120 ]
-Find Test -- Capacity = 40000 -- Percent Full = 80% T:[ 0.000033 ] S:[ 37120 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 80% T:[ 0.000034 ] S:[ 37120 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 80% T:[ 0.000059 ] S:[ 37120 ]
-Fill -- S1:[ 0 ] S2:[ 36000 ]
-Insertion Test -- Capacity = 40000 -- Percent Full = 90% Num Insertions: 3999 T:[ 0.000074 ] S1:[ 36000 ] S2:[ 39999 ]
-Find Test -- Capacity = 40000 -- Percent Full = 90% T:[ 0.000034 ] S:[ 39999 ]
-Single Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 90% T:[ 0.000036 ] S:[ 39999 ]
-Multiple Repeated Insertion Test -- Capacity = 40000 -- Percent Full = 90% T:[ 0.000060 ] S:[ 39999 ]
-Capacity 80000
-Fill -- S1:[ 0 ] S2:[ 8000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 10% Num Insertions: 8000 T:[ 0.000065 ] S1:[ 8000 ] S2:[ 16000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 10% T:[ 0.000033 ] S:[ 16000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 10% T:[ 0.000036 ] S:[ 16000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 10% T:[ 0.000072 ] S:[ 16000 ]
-Fill -- S1:[ 0 ] S2:[ 16000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 20% Num Insertions: 8000 T:[ 0.000064 ] S1:[ 16000 ] S2:[ 24000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 20% T:[ 0.000033 ] S:[ 24000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 20% T:[ 0.000036 ] S:[ 24000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 20% T:[ 0.000074 ] S:[ 24000 ]
-Fill -- S1:[ 0 ] S2:[ 24000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 30% Num Insertions: 8000 T:[ 0.000065 ] S1:[ 24000 ] S2:[ 32000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 30% T:[ 0.000034 ] S:[ 32000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 30% T:[ 0.000034 ] S:[ 32000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 30% T:[ 0.000073 ] S:[ 32000 ]
-Fill -- S1:[ 0 ] S2:[ 32000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 40% Num Insertions: 8000 T:[ 0.000065 ] S1:[ 32000 ] S2:[ 40000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 40% T:[ 0.000037 ] S:[ 40000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 40% T:[ 0.000035 ] S:[ 40000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 40% T:[ 0.000074 ] S:[ 40000 ]
-Fill -- S1:[ 0 ] S2:[ 40000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 50% Num Insertions: 8000 T:[ 0.000067 ] S1:[ 40000 ] S2:[ 48000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 50% T:[ 0.000034 ] S:[ 48000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 50% T:[ 0.000035 ] S:[ 48000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 50% T:[ 0.000072 ] S:[ 48000 ]
-Fill -- S1:[ 0 ] S2:[ 48000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 60% Num Insertions: 8000 T:[ 0.000067 ] S1:[ 48000 ] S2:[ 56000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 60% T:[ 0.000034 ] S:[ 56000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 60% T:[ 0.000035 ] S:[ 56000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 60% T:[ 0.000073 ] S:[ 56000 ]
-Fill -- S1:[ 0 ] S2:[ 56000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 70% Num Insertions: 8000 T:[ 0.000067 ] S1:[ 56000 ] S2:[ 64000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 70% T:[ 0.000035 ] S:[ 64000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 70% T:[ 0.000034 ] S:[ 64000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 70% T:[ 0.000072 ] S:[ 64000 ]
-Fill -- S1:[ 0 ] S2:[ 64000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 80% Num Insertions: 8000 T:[ 0.000070 ] S1:[ 64000 ] S2:[ 72000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 80% T:[ 0.000034 ] S:[ 72000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 80% T:[ 0.000034 ] S:[ 72000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 80% T:[ 0.000073 ] S:[ 72000 ]
-Fill -- S1:[ 0 ] S2:[ 72000 ]
-Insertion Test -- Capacity = 80000 -- Percent Full = 90% Num Insertions: 8000 T:[ 0.000073 ] S1:[ 72000 ] S2:[ 80000 ]
-Find Test -- Capacity = 80000 -- Percent Full = 90% T:[ 0.000035 ] S:[ 80000 ]
-Single Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 90% T:[ 0.000035 ] S:[ 80000 ]
-Multiple Repeated Insertion Test -- Capacity = 80000 -- Percent Full = 90% T:[ 0.000074 ] S:[ 80000 ]
-Capacity 160000
-Fill -- S1:[ 0 ] S2:[ 16000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 10% Num Insertions: 16000 T:[ 0.000069 ] S1:[ 16000 ] S2:[ 32000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 10% T:[ 0.000034 ] S:[ 32000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 10% T:[ 0.000035 ] S:[ 32000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 10% T:[ 0.000110 ] S:[ 32000 ]
-Fill -- S1:[ 0 ] S2:[ 32000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 20% Num Insertions: 16000 T:[ 0.000069 ] S1:[ 32000 ] S2:[ 48000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 20% T:[ 0.000034 ] S:[ 48000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 20% T:[ 0.000035 ] S:[ 48000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 20% T:[ 0.000110 ] S:[ 48000 ]
-Fill -- S1:[ 0 ] S2:[ 48000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 30% Num Insertions: 16000 T:[ 0.000070 ] S1:[ 48000 ] S2:[ 64000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 30% T:[ 0.000033 ] S:[ 64000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 30% T:[ 0.000035 ] S:[ 64000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 30% T:[ 0.000110 ] S:[ 64000 ]
-Fill -- S1:[ 0 ] S2:[ 64000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 40% Num Insertions: 16000 T:[ 0.000069 ] S1:[ 64000 ] S2:[ 80000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 40% T:[ 0.000034 ] S:[ 80000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 40% T:[ 0.000035 ] S:[ 80000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 40% T:[ 0.000109 ] S:[ 80000 ]
-Fill -- S1:[ 0 ] S2:[ 80000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 50% Num Insertions: 16000 T:[ 0.000071 ] S1:[ 80000 ] S2:[ 96000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 50% T:[ 0.000034 ] S:[ 96000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 50% T:[ 0.000036 ] S:[ 96000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 50% T:[ 0.000110 ] S:[ 96000 ]
-Fill -- S1:[ 0 ] S2:[ 96000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 60% Num Insertions: 16000 T:[ 0.000071 ] S1:[ 96000 ] S2:[ 112000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 60% T:[ 0.000034 ] S:[ 112000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 60% T:[ 0.000038 ] S:[ 112000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 60% T:[ 0.000110 ] S:[ 112000 ]
-Fill -- S1:[ 0 ] S2:[ 112000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 70% Num Insertions: 16000 T:[ 0.000072 ] S1:[ 112000 ] S2:[ 128000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 70% T:[ 0.000034 ] S:[ 128000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 70% T:[ 0.000035 ] S:[ 128000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 70% T:[ 0.000110 ] S:[ 128000 ]
-Fill -- S1:[ 0 ] S2:[ 128000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 80% Num Insertions: 16000 T:[ 0.000074 ] S1:[ 128000 ] S2:[ 144000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 80% T:[ 0.000035 ] S:[ 144000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 80% T:[ 0.000035 ] S:[ 144000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 80% T:[ 0.000112 ] S:[ 144000 ]
-Fill -- S1:[ 0 ] S2:[ 144000 ]
-Insertion Test -- Capacity = 160000 -- Percent Full = 90% Num Insertions: 16000 T:[ 0.000080 ] S1:[ 144000 ] S2:[ 160000 ]
-Find Test -- Capacity = 160000 -- Percent Full = 90% T:[ 0.000035 ] S:[ 160000 ]
-Single Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 90% T:[ 0.000036 ] S:[ 160000 ]
-Multiple Repeated Insertion Test -- Capacity = 160000 -- Percent Full = 90% T:[ 0.000112 ] S:[ 160000 ]
-Capacity 320000
-Fill -- S1:[ 0 ] S2:[ 32000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 10% Num Insertions: 32000 T:[ 0.000087 ] S1:[ 32000 ] S2:[ 64000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 10% T:[ 0.000033 ] S:[ 64000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 10% T:[ 0.000036 ] S:[ 64000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 10% T:[ 0.000199 ] S:[ 64000 ]
-Fill -- S1:[ 0 ] S2:[ 64000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 20% Num Insertions: 32000 T:[ 0.000093 ] S1:[ 64000 ] S2:[ 96000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 20% T:[ 0.000035 ] S:[ 96000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 20% T:[ 0.000037 ] S:[ 96000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 20% T:[ 0.000197 ] S:[ 96000 ]
-Fill -- S1:[ 0 ] S2:[ 96000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 30% Num Insertions: 32000 T:[ 0.000090 ] S1:[ 96000 ] S2:[ 128000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 30% T:[ 0.000033 ] S:[ 128000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 30% T:[ 0.000035 ] S:[ 128000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 30% T:[ 0.000203 ] S:[ 128000 ]
-Fill -- S1:[ 0 ] S2:[ 128000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 40% Num Insertions: 32000 T:[ 0.000090 ] S1:[ 128000 ] S2:[ 160000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 40% T:[ 0.000033 ] S:[ 160000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 40% T:[ 0.000036 ] S:[ 160000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 40% T:[ 0.000209 ] S:[ 160000 ]
-Fill -- S1:[ 0 ] S2:[ 160000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 50% Num Insertions: 32000 T:[ 0.000090 ] S1:[ 160000 ] S2:[ 192000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 50% T:[ 0.000033 ] S:[ 192000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 50% T:[ 0.000036 ] S:[ 192000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 50% T:[ 0.000201 ] S:[ 192000 ]
-Fill -- S1:[ 0 ] S2:[ 192000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 60% Num Insertions: 32000 T:[ 0.000089 ] S1:[ 192000 ] S2:[ 224000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 60% T:[ 0.000035 ] S:[ 224000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 60% T:[ 0.000037 ] S:[ 224000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 60% T:[ 0.000194 ] S:[ 224000 ]
-Fill -- S1:[ 0 ] S2:[ 224000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 70% Num Insertions: 32000 T:[ 0.000091 ] S1:[ 224000 ] S2:[ 256000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 70% T:[ 0.000034 ] S:[ 256000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 70% T:[ 0.000036 ] S:[ 256000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 70% T:[ 0.000204 ] S:[ 256000 ]
-Fill -- S1:[ 0 ] S2:[ 256000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 80% Num Insertions: 32000 T:[ 0.000092 ] S1:[ 256000 ] S2:[ 288000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 80% T:[ 0.000034 ] S:[ 288000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 80% T:[ 0.000036 ] S:[ 288000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 80% T:[ 0.000193 ] S:[ 288000 ]
-Fill -- S1:[ 0 ] S2:[ 288000 ]
-Insertion Test -- Capacity = 320000 -- Percent Full = 90% Num Insertions: 32000 T:[ 0.000096 ] S1:[ 288000 ] S2:[ 320000 ]
-Find Test -- Capacity = 320000 -- Percent Full = 90% T:[ 0.000034 ] S:[ 320000 ]
-Single Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 90% T:[ 0.000036 ] S:[ 320000 ]
-Multiple Repeated Insertion Test -- Capacity = 320000 -- Percent Full = 90% T:[ 0.000214 ] S:[ 320000 ]
-Capacity 640000
-Fill -- S1:[ 0 ] S2:[ 64000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 10% Num Insertions: 64000 T:[ 0.000133 ] S1:[ 64000 ] S2:[ 128000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 10% T:[ 0.000033 ] S:[ 128000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 10% T:[ 0.000038 ] S:[ 128000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 10% T:[ 0.000345 ] S:[ 128000 ]
-Fill -- S1:[ 0 ] S2:[ 128000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 20% Num Insertions: 64000 T:[ 0.000133 ] S1:[ 128000 ] S2:[ 192000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 20% T:[ 0.000033 ] S:[ 192000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 20% T:[ 0.000037 ] S:[ 192000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 20% T:[ 0.000345 ] S:[ 192000 ]
-Fill -- S1:[ 0 ] S2:[ 192000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 30% Num Insertions: 64000 T:[ 0.000135 ] S1:[ 192000 ] S2:[ 256000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 30% T:[ 0.000033 ] S:[ 256000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 30% T:[ 0.000037 ] S:[ 256000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 30% T:[ 0.000362 ] S:[ 256000 ]
-Fill -- S1:[ 0 ] S2:[ 256000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 40% Num Insertions: 64000 T:[ 0.000137 ] S1:[ 256000 ] S2:[ 320000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 40% T:[ 0.000034 ] S:[ 320000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 40% T:[ 0.000039 ] S:[ 320000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 40% T:[ 0.000353 ] S:[ 320000 ]
-Fill -- S1:[ 0 ] S2:[ 320000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 50% Num Insertions: 64000 T:[ 0.000138 ] S1:[ 320000 ] S2:[ 384000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 50% T:[ 0.000033 ] S:[ 384000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 50% T:[ 0.000038 ] S:[ 384000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 50% T:[ 0.000375 ] S:[ 384000 ]
-Fill -- S1:[ 0 ] S2:[ 384000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 60% Num Insertions: 64000 T:[ 0.000138 ] S1:[ 384000 ] S2:[ 448000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 60% T:[ 0.000034 ] S:[ 448000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 60% T:[ 0.000038 ] S:[ 448000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 60% T:[ 0.000353 ] S:[ 448000 ]
-Fill -- S1:[ 0 ] S2:[ 448000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 70% Num Insertions: 64000 T:[ 0.000140 ] S1:[ 448000 ] S2:[ 512000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 70% T:[ 0.000034 ] S:[ 512000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 70% T:[ 0.000038 ] S:[ 512000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 70% T:[ 0.000345 ] S:[ 512000 ]
-Fill -- S1:[ 0 ] S2:[ 512000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 80% Num Insertions: 64000 T:[ 0.000141 ] S1:[ 512000 ] S2:[ 576000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 80% T:[ 0.000033 ] S:[ 576000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 80% T:[ 0.000037 ] S:[ 576000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 80% T:[ 0.000348 ] S:[ 576000 ]
-Fill -- S1:[ 0 ] S2:[ 576000 ]
-Insertion Test -- Capacity = 640000 -- Percent Full = 90% Num Insertions: 64000 T:[ 0.000145 ] S1:[ 576000 ] S2:[ 640000 ]
-Find Test -- Capacity = 640000 -- Percent Full = 90% T:[ 0.000033 ] S:[ 640000 ]
-Single Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 90% T:[ 0.000038 ] S:[ 640000 ]
-Multiple Repeated Insertion Test -- Capacity = 640000 -- Percent Full = 90% T:[ 0.000353 ] S:[ 640000 ]
-Capacity 1280000
-Fill -- S1:[ 0 ] S2:[ 128000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 10% Num Insertions: 128000 T:[ 0.000245 ] S1:[ 128000 ] S2:[ 256000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 10% T:[ 0.000035 ] S:[ 256000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 10% T:[ 0.000042 ] S:[ 256000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 10% T:[ 0.000673 ] S:[ 256000 ]
-Fill -- S1:[ 0 ] S2:[ 256000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 20% Num Insertions: 128000 T:[ 0.000249 ] S1:[ 256000 ] S2:[ 384000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 20% T:[ 0.000035 ] S:[ 384000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 20% T:[ 0.000041 ] S:[ 384000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 20% T:[ 0.000695 ] S:[ 384000 ]
-Fill -- S1:[ 0 ] S2:[ 384000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 30% Num Insertions: 128000 T:[ 0.000255 ] S1:[ 384000 ] S2:[ 512000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 30% T:[ 0.000034 ] S:[ 512000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 30% T:[ 0.000042 ] S:[ 512000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 30% T:[ 0.000667 ] S:[ 512000 ]
-Fill -- S1:[ 0 ] S2:[ 512000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 40% Num Insertions: 128000 T:[ 0.000260 ] S1:[ 512000 ] S2:[ 640000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 40% T:[ 0.000034 ] S:[ 640000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 40% T:[ 0.000042 ] S:[ 640000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 40% T:[ 0.000683 ] S:[ 640000 ]
-Fill -- S1:[ 0 ] S2:[ 640000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 50% Num Insertions: 128000 T:[ 0.000262 ] S1:[ 640000 ] S2:[ 768000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 50% T:[ 0.000034 ] S:[ 768000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 50% T:[ 0.000042 ] S:[ 768000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 50% T:[ 0.000705 ] S:[ 768000 ]
-Fill -- S1:[ 0 ] S2:[ 768000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 60% Num Insertions: 128000 T:[ 0.000267 ] S1:[ 768000 ] S2:[ 896000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 60% T:[ 0.000034 ] S:[ 896000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 60% T:[ 0.000042 ] S:[ 896000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 60% T:[ 0.000709 ] S:[ 896000 ]
-Fill -- S1:[ 0 ] S2:[ 896000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 70% Num Insertions: 128000 T:[ 0.000267 ] S1:[ 896000 ] S2:[ 1024000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 70% T:[ 0.000035 ] S:[ 1024000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 70% T:[ 0.000042 ] S:[ 1024000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 70% T:[ 0.000717 ] S:[ 1024000 ]
-Fill -- S1:[ 0 ] S2:[ 1024000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 80% Num Insertions: 128000 T:[ 0.000269 ] S1:[ 1024000 ] S2:[ 1152000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 80% T:[ 0.000035 ] S:[ 1152000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 80% T:[ 0.000042 ] S:[ 1152000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 80% T:[ 0.000693 ] S:[ 1152000 ]
-Fill -- S1:[ 0 ] S2:[ 1152000 ]
-Insertion Test -- Capacity = 1280000 -- Percent Full = 90% Num Insertions: 128000 T:[ 0.000274 ] S1:[ 1152000 ] S2:[ 1280000 ]
-Find Test -- Capacity = 1280000 -- Percent Full = 90% T:[ 0.000035 ] S:[ 1280000 ]
-Single Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 90% T:[ 0.000042 ] S:[ 1280000 ]
-Multiple Repeated Insertion Test -- Capacity = 1280000 -- Percent Full = 90% T:[ 0.000732 ] S:[ 1280000 ]
-Capacity 2560000
-Fill -- S1:[ 0 ] S2:[ 256000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 10% Num Insertions: 256000 T:[ 0.000487 ] S1:[ 256000 ] S2:[ 512000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 10% T:[ 0.000037 ] S:[ 512000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 10% T:[ 0.000048 ] S:[ 512000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 10% T:[ 0.001322 ] S:[ 512000 ]
-Fill -- S1:[ 0 ] S2:[ 512000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 20% Num Insertions: 256000 T:[ 0.000499 ] S1:[ 512000 ] S2:[ 768000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 20% T:[ 0.000037 ] S:[ 768000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 20% T:[ 0.000048 ] S:[ 768000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 20% T:[ 0.001344 ] S:[ 768000 ]
-Fill -- S1:[ 0 ] S2:[ 768000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 30% Num Insertions: 256000 T:[ 0.000510 ] S1:[ 768000 ] S2:[ 1024000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 30% T:[ 0.000037 ] S:[ 1024000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 30% T:[ 0.000047 ] S:[ 1024000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 30% T:[ 0.001322 ] S:[ 1024000 ]
-Fill -- S1:[ 0 ] S2:[ 1024000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 40% Num Insertions: 256000 T:[ 0.000514 ] S1:[ 1024000 ] S2:[ 1280000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 40% T:[ 0.000037 ] S:[ 1280000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 40% T:[ 0.000047 ] S:[ 1280000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 40% T:[ 0.001324 ] S:[ 1280000 ]
-Fill -- S1:[ 0 ] S2:[ 1280000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 50% Num Insertions: 256000 T:[ 0.000519 ] S1:[ 1280000 ] S2:[ 1536000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 50% T:[ 0.000037 ] S:[ 1536000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 50% T:[ 0.000047 ] S:[ 1536000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 50% T:[ 0.001343 ] S:[ 1536000 ]
-Fill -- S1:[ 0 ] S2:[ 1536000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 60% Num Insertions: 256000 T:[ 0.000529 ] S1:[ 1536000 ] S2:[ 1792000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 60% T:[ 0.000036 ] S:[ 1792000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 60% T:[ 0.000048 ] S:[ 1792000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 60% T:[ 0.001323 ] S:[ 1792000 ]
-Fill -- S1:[ 0 ] S2:[ 1792000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 70% Num Insertions: 256000 T:[ 0.000533 ] S1:[ 1792000 ] S2:[ 2048000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 70% T:[ 0.000036 ] S:[ 2048000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 70% T:[ 0.000047 ] S:[ 2048000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 70% T:[ 0.001322 ] S:[ 2048000 ]
-Fill -- S1:[ 0 ] S2:[ 2048000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 80% Num Insertions: 256000 T:[ 0.000538 ] S1:[ 2048000 ] S2:[ 2304000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 80% T:[ 0.000037 ] S:[ 2304000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 80% T:[ 0.000048 ] S:[ 2304000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 80% T:[ 0.001366 ] S:[ 2304000 ]
-Fill -- S1:[ 0 ] S2:[ 2304000 ]
-Insertion Test -- Capacity = 2560000 -- Percent Full = 90% Num Insertions: 256000 T:[ 0.000547 ] S1:[ 2304000 ] S2:[ 2560000 ]
-Find Test -- Capacity = 2560000 -- Percent Full = 90% T:[ 0.000036 ] S:[ 2560000 ]
-Single Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 90% T:[ 0.000047 ] S:[ 2560000 ]
-Multiple Repeated Insertion Test -- Capacity = 2560000 -- Percent Full = 90% T:[ 0.001365 ] S:[ 2560000 ]
-Capacity 5120000
-Fill -- S1:[ 0 ] S2:[ 512000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 10% Num Insertions: 512000 T:[ 0.000991 ] S1:[ 512000 ] S2:[ 1024000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 10% T:[ 0.000040 ] S:[ 1024000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 10% T:[ 0.000062 ] S:[ 1024000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 10% T:[ 0.002458 ] S:[ 1024000 ]
-Fill -- S1:[ 0 ] S2:[ 1024000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 20% Num Insertions: 512000 T:[ 0.001011 ] S1:[ 1024000 ] S2:[ 1536000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 20% T:[ 0.000038 ] S:[ 1536000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 20% T:[ 0.000061 ] S:[ 1536000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 20% T:[ 0.002357 ] S:[ 1536000 ]
-Fill -- S1:[ 0 ] S2:[ 1536000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 30% Num Insertions: 512000 T:[ 0.001028 ] S1:[ 1536000 ] S2:[ 2048000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 30% T:[ 0.000039 ] S:[ 2048000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 30% T:[ 0.000061 ] S:[ 2048000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 30% T:[ 0.002356 ] S:[ 2048000 ]
-Fill -- S1:[ 0 ] S2:[ 2048000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 40% Num Insertions: 512000 T:[ 0.001040 ] S1:[ 2048000 ] S2:[ 2560000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 40% T:[ 0.000040 ] S:[ 2560000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 40% T:[ 0.000060 ] S:[ 2560000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 40% T:[ 0.002356 ] S:[ 2560000 ]
-Fill -- S1:[ 0 ] S2:[ 2560000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 50% Num Insertions: 512000 T:[ 0.001056 ] S1:[ 2560000 ] S2:[ 3072000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 50% T:[ 0.000039 ] S:[ 3072000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 50% T:[ 0.000061 ] S:[ 3072000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 50% T:[ 0.002355 ] S:[ 3072000 ]
-Fill -- S1:[ 0 ] S2:[ 3072000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 60% Num Insertions: 512000 T:[ 0.001065 ] S1:[ 3072000 ] S2:[ 3584000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 60% T:[ 0.000039 ] S:[ 3584000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 60% T:[ 0.000060 ] S:[ 3584000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 60% T:[ 0.002356 ] S:[ 3584000 ]
-Fill -- S1:[ 0 ] S2:[ 3584000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 70% Num Insertions: 512000 T:[ 0.001107 ] S1:[ 3584000 ] S2:[ 4096000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 70% T:[ 0.000055 ] S:[ 4096000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 70% T:[ 0.000061 ] S:[ 4096000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 70% T:[ 0.002353 ] S:[ 4096000 ]
-Fill -- S1:[ 0 ] S2:[ 4096000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 80% Num Insertions: 512000 T:[ 0.001095 ] S1:[ 4096000 ] S2:[ 4608000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 80% T:[ 0.000039 ] S:[ 4608000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 80% T:[ 0.000060 ] S:[ 4608000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 80% T:[ 0.002353 ] S:[ 4608000 ]
-Fill -- S1:[ 0 ] S2:[ 4608000 ]
-Insertion Test -- Capacity = 5120000 -- Percent Full = 90% Num Insertions: 512000 T:[ 0.001116 ] S1:[ 4608000 ] S2:[ 5120000 ]
-Find Test -- Capacity = 5120000 -- Percent Full = 90% T:[ 0.000039 ] S:[ 5120000 ]
-Single Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 90% T:[ 0.000061 ] S:[ 5120000 ]
-Multiple Repeated Insertion Test -- Capacity = 5120000 -- Percent Full = 90% T:[ 0.002353 ] S:[ 5120000 ]
-Capacity 10240000
-Fill -- S1:[ 0 ] S2:[ 1024000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 10% Num Insertions: 1024000 T:[ 0.002070 ] S1:[ 1024000 ] S2:[ 2048000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 10% T:[ 0.000045 ] S:[ 2048000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 10% T:[ 0.000080 ] S:[ 2048000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 10% T:[ 0.004998 ] S:[ 2048000 ]
-Fill -- S1:[ 0 ] S2:[ 2048000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 20% Num Insertions: 1024000 T:[ 0.002101 ] S1:[ 2048000 ] S2:[ 3072000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 20% T:[ 0.000044 ] S:[ 3072000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 20% T:[ 0.000080 ] S:[ 3072000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 20% T:[ 0.004998 ] S:[ 3072000 ]
-Fill -- S1:[ 0 ] S2:[ 3072000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 30% Num Insertions: 1024000 T:[ 0.002127 ] S1:[ 3072000 ] S2:[ 4096000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 30% T:[ 0.000044 ] S:[ 4096000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 30% T:[ 0.000080 ] S:[ 4096000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 30% T:[ 0.004997 ] S:[ 4096000 ]
-Fill -- S1:[ 0 ] S2:[ 4096000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 40% Num Insertions: 1024000 T:[ 0.002160 ] S1:[ 4096000 ] S2:[ 5120000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 40% T:[ 0.000043 ] S:[ 5120000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 40% T:[ 0.000078 ] S:[ 5120000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 40% T:[ 0.004995 ] S:[ 5120000 ]
-Fill -- S1:[ 0 ] S2:[ 5120000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 50% Num Insertions: 1024000 T:[ 0.002189 ] S1:[ 5120000 ] S2:[ 6144000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 50% T:[ 0.000043 ] S:[ 6144000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 50% T:[ 0.000077 ] S:[ 6144000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 50% T:[ 0.004997 ] S:[ 6144000 ]
-Fill -- S1:[ 0 ] S2:[ 6144000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 60% Num Insertions: 1024000 T:[ 0.002213 ] S1:[ 6144000 ] S2:[ 7168000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 60% T:[ 0.000043 ] S:[ 7168000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 60% T:[ 0.000078 ] S:[ 7168000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 60% T:[ 0.004997 ] S:[ 7168000 ]
-Fill -- S1:[ 0 ] S2:[ 7168000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 70% Num Insertions: 1024000 T:[ 0.002238 ] S1:[ 7168000 ] S2:[ 8192000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 70% T:[ 0.000045 ] S:[ 8192000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 70% T:[ 0.000081 ] S:[ 8192000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 70% T:[ 0.004998 ] S:[ 8192000 ]
-Fill -- S1:[ 0 ] S2:[ 8192000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 80% Num Insertions: 1024000 T:[ 0.002276 ] S1:[ 8192000 ] S2:[ 9216000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 80% T:[ 0.000045 ] S:[ 9216000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 80% T:[ 0.000081 ] S:[ 9216000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 80% T:[ 0.004997 ] S:[ 9216000 ]
-Fill -- S1:[ 0 ] S2:[ 9216000 ]
-Insertion Test -- Capacity = 10240000 -- Percent Full = 90% Num Insertions: 1024000 T:[ 0.002334 ] S1:[ 9216000 ] S2:[ 10240000 ]
-Find Test -- Capacity = 10240000 -- Percent Full = 90% T:[ 0.000045 ] S:[ 10240000 ]
-Single Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 90% T:[ 0.000080 ] S:[ 10240000 ]
-Multiple Repeated Insertion Test -- Capacity = 10240000 -- Percent Full = 90% T:[ 0.004997 ] S:[ 10240000 ]
-Capacity 20480000
-Fill -- S1:[ 0 ] S2:[ 2048000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 10% Num Insertions: 2048000 T:[ 0.004402 ] S1:[ 2048000 ] S2:[ 4096000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 10% T:[ 0.000055 ] S:[ 4096000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 10% T:[ 0.000125 ] S:[ 4096000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 10% T:[ 0.010068 ] S:[ 4096000 ]
-Fill -- S1:[ 0 ] S2:[ 4096000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 20% Num Insertions: 2048000 T:[ 0.004445 ] S1:[ 4096000 ] S2:[ 6144000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 20% T:[ 0.000055 ] S:[ 6144000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 20% T:[ 0.000126 ] S:[ 6144000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 20% T:[ 0.010246 ] S:[ 6144000 ]
-Fill -- S1:[ 0 ] S2:[ 6144000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 30% Num Insertions: 2048000 T:[ 0.004487 ] S1:[ 6144000 ] S2:[ 8192000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 30% T:[ 0.000056 ] S:[ 8192000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 30% T:[ 0.000126 ] S:[ 8192000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 30% T:[ 0.010069 ] S:[ 8192000 ]
-Fill -- S1:[ 0 ] S2:[ 8192000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 40% Num Insertions: 2048000 T:[ 0.004528 ] S1:[ 8192000 ] S2:[ 10240000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 40% T:[ 0.000055 ] S:[ 10240000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 40% T:[ 0.000126 ] S:[ 10240000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 40% T:[ 0.010068 ] S:[ 10240000 ]
-Fill -- S1:[ 0 ] S2:[ 10240000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 50% Num Insertions: 2048000 T:[ 0.004577 ] S1:[ 10240000 ] S2:[ 12288000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 50% T:[ 0.000055 ] S:[ 12288000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 50% T:[ 0.000125 ] S:[ 12288000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 50% T:[ 0.009899 ] S:[ 12288000 ]
-Fill -- S1:[ 0 ] S2:[ 12288000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 60% Num Insertions: 2048000 T:[ 0.004628 ] S1:[ 12288000 ] S2:[ 14336000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 60% T:[ 0.000054 ] S:[ 14336000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 60% T:[ 0.000123 ] S:[ 14336000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 60% T:[ 0.010070 ] S:[ 14336000 ]
-Fill -- S1:[ 0 ] S2:[ 14336000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 70% Num Insertions: 2048000 T:[ 0.004727 ] S1:[ 14336000 ] S2:[ 16384000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 70% T:[ 0.000059 ] S:[ 16384000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 70% T:[ 0.000126 ] S:[ 16384000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 70% T:[ 0.010070 ] S:[ 16384000 ]
-Fill -- S1:[ 0 ] S2:[ 16384000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 80% Num Insertions: 2048000 T:[ 0.004754 ] S1:[ 16384000 ] S2:[ 18432000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 80% T:[ 0.000054 ] S:[ 18432000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 80% T:[ 0.000124 ] S:[ 18432000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 80% T:[ 0.009899 ] S:[ 18432000 ]
-Fill -- S1:[ 0 ] S2:[ 18432000 ]
-Insertion Test -- Capacity = 20480000 -- Percent Full = 90% Num Insertions: 2048000 T:[ 0.004905 ] S1:[ 18432000 ] S2:[ 20480000 ]
-Find Test -- Capacity = 20480000 -- Percent Full = 90% T:[ 0.000055 ] S:[ 20480000 ]
-Single Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 90% T:[ 0.000123 ] S:[ 20480000 ]
-Multiple Repeated Insertion Test -- Capacity = 20480000 -- Percent Full = 90% T:[ 0.010241 ] S:[ 20480000 ]
-Capacity 40960000
-Fill -- S1:[ 0 ] S2:[ 4096000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 10% Num Insertions: 4096000 T:[ 0.009292 ] S1:[ 4096000 ] S2:[ 8192000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 10% T:[ 0.000078 ] S:[ 8192000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 10% T:[ 0.000211 ] S:[ 8192000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 10% T:[ 0.019600 ] S:[ 8192000 ]
-Fill -- S1:[ 0 ] S2:[ 8192000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 20% Num Insertions: 4096000 T:[ 0.009333 ] S1:[ 8192000 ] S2:[ 12288000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 20% T:[ 0.000078 ] S:[ 12288000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 20% T:[ 0.000211 ] S:[ 12288000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 20% T:[ 0.019604 ] S:[ 12288000 ]
-Fill -- S1:[ 0 ] S2:[ 12288000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 30% Num Insertions: 4096000 T:[ 0.009405 ] S1:[ 12288000 ] S2:[ 16384000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 30% T:[ 0.000078 ] S:[ 16384000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 30% T:[ 0.000210 ] S:[ 16384000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 30% T:[ 0.019602 ] S:[ 16384000 ]
-Fill -- S1:[ 0 ] S2:[ 16384000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 40% Num Insertions: 4096000 T:[ 0.009483 ] S1:[ 16384000 ] S2:[ 20480000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 40% T:[ 0.000078 ] S:[ 20480000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 40% T:[ 0.000211 ] S:[ 20480000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 40% T:[ 0.019604 ] S:[ 20480000 ]
-Fill -- S1:[ 0 ] S2:[ 20480000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 50% Num Insertions: 4096000 T:[ 0.009565 ] S1:[ 20480000 ] S2:[ 24576000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 50% T:[ 0.000077 ] S:[ 24576000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 50% T:[ 0.000211 ] S:[ 24576000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 50% T:[ 0.019603 ] S:[ 24576000 ]
-Fill -- S1:[ 0 ] S2:[ 24576000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 60% Num Insertions: 4096000 T:[ 0.009662 ] S1:[ 24576000 ] S2:[ 28672000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 60% T:[ 0.000077 ] S:[ 28672000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 60% T:[ 0.000210 ] S:[ 28672000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 60% T:[ 0.019601 ] S:[ 28672000 ]
-Fill -- S1:[ 0 ] S2:[ 28672000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 70% Num Insertions: 4096000 T:[ 0.009769 ] S1:[ 28672000 ] S2:[ 32768000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 70% T:[ 0.000077 ] S:[ 32768000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 70% T:[ 0.000211 ] S:[ 32768000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 70% T:[ 0.019603 ] S:[ 32768000 ]
-Fill -- S1:[ 0 ] S2:[ 32768000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 80% Num Insertions: 4096000 T:[ 0.009913 ] S1:[ 32768000 ] S2:[ 36864000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 80% T:[ 0.000078 ] S:[ 36864000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 80% T:[ 0.000211 ] S:[ 36864000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 80% T:[ 0.019602 ] S:[ 36864000 ]
-Fill -- S1:[ 0 ] S2:[ 36864000 ]
-Insertion Test -- Capacity = 40960000 -- Percent Full = 90% Num Insertions: 4096000 T:[ 0.010284 ] S1:[ 36864000 ] S2:[ 40960000 ]
-Find Test -- Capacity = 40960000 -- Percent Full = 90% T:[ 0.000078 ] S:[ 40960000 ]
-Single Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 90% T:[ 0.000211 ] S:[ 40960000 ]
-Multiple Repeated Insertion Test -- Capacity = 40960000 -- Percent Full = 90% T:[ 0.019603 ] S:[ 40960000 ]
-Capacity 81920000
-Fill -- S1:[ 0 ] S2:[ 8192000 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 10% Num Insertions: 8192000 T:[ 0.019274 ] S1:[ 8192000 ] S2:[ 16384000 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 10% T:[ 0.000123 ] S:[ 16384000 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 10% T:[ 0.000388 ] S:[ 16384000 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 10% T:[ 0.037639 ] S:[ 16384000 ]
-Fill -- S1:[ 0 ] S2:[ 16384000 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 20% Num Insertions: 8192000 T:[ 0.019335 ] S1:[ 16384000 ] S2:[ 24576000 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 20% T:[ 0.000123 ] S:[ 24576000 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 20% T:[ 0.000388 ] S:[ 24576000 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 20% T:[ 0.037618 ] S:[ 24576000 ]
-Fill -- S1:[ 0 ] S2:[ 24576000 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 30% Num Insertions: 8192000 T:[ 0.019447 ] S1:[ 24576000 ] S2:[ 32768000 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 30% T:[ 0.000123 ] S:[ 32768000 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 30% T:[ 0.000388 ] S:[ 32768000 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 30% T:[ 0.037628 ] S:[ 32768000 ]
-Fill -- S1:[ 0 ] S2:[ 32768000 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 40% Num Insertions: 8192000 T:[ 0.019597 ] S1:[ 32768000 ] S2:[ 40960000 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 40% T:[ 0.000123 ] S:[ 40960000 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 40% T:[ 0.000387 ] S:[ 40960000 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 40% T:[ 0.037614 ] S:[ 40960000 ]
-Fill -- S1:[ 0 ] S2:[ 40960000 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 50% Num Insertions: 8192000 T:[ 0.019750 ] S1:[ 40960000 ] S2:[ 49152000 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 50% T:[ 0.000123 ] S:[ 49152000 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 50% T:[ 0.000388 ] S:[ 49152000 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 50% T:[ 0.037628 ] S:[ 49152000 ]
-Fill -- S1:[ 0 ] S2:[ 6202327 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 60% Num Insertions: 8192000 T:[ 0.019279 ] S1:[ 6202327 ] S2:[ 14394327 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 60% T:[ 0.000123 ] S:[ 14394327 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 60% T:[ 0.000388 ] S:[ 14394327 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 60% T:[ 0.037607 ] S:[ 14394327 ]
-Fill -- S1:[ 0 ] S2:[ 14394327 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 70% Num Insertions: 8192000 T:[ 0.019322 ] S1:[ 14394327 ] S2:[ 22586327 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 70% T:[ 0.000123 ] S:[ 22586327 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 70% T:[ 0.000388 ] S:[ 22586327 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 70% T:[ 0.037626 ] S:[ 22586327 ]
-Fill -- S1:[ 0 ] S2:[ 22586327 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 80% Num Insertions: 8192000 T:[ 0.019422 ] S1:[ 22586327 ] S2:[ 30778327 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 80% T:[ 0.000125 ] S:[ 30778327 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 80% T:[ 0.000389 ] S:[ 30778327 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 80% T:[ 0.037629 ] S:[ 30778327 ]
-Fill -- S1:[ 0 ] S2:[ 30778327 ]
-Insertion Test -- Capacity = 81920000 -- Percent Full = 90% Num Insertions: 8192000 T:[ 0.019571 ] S1:[ 30778327 ] S2:[ 38970327 ]
-Find Test -- Capacity = 81920000 -- Percent Full = 90% T:[ 0.000124 ] S:[ 38970327 ]
-Single Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 90% T:[ 0.000390 ] S:[ 38970327 ]
-Multiple Repeated Insertion Test -- Capacity = 81920000 -- Percent Full = 90% T:[ 0.037655 ] S:[ 38970327 ]
-Capacity 163840000
-Fill -- S1:[ 0 ] S2:[ 16384000 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 10% Num Insertions: 16384000 T:[ 0.039387 ] S1:[ 16384000 ] S2:[ 32768000 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 10% T:[ 0.000215 ] S:[ 32768000 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 10% T:[ 0.000744 ] S:[ 32768000 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 10% T:[ 0.078504 ] S:[ 32768000 ]
-Fill -- S1:[ 0 ] S2:[ 32768000 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 20% Num Insertions: 16384000 T:[ 0.039476 ] S1:[ 32768000 ] S2:[ 49152000 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 20% T:[ 0.000216 ] S:[ 49152000 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 20% T:[ 0.000744 ] S:[ 49152000 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 20% T:[ 0.078482 ] S:[ 49152000 ]
-Fill -- S1:[ 0 ] S2:[ 6202327 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 30% Num Insertions: 16384000 T:[ 0.039406 ] S1:[ 6202327 ] S2:[ 22586327 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 30% T:[ 0.000213 ] S:[ 22586327 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 30% T:[ 0.000743 ] S:[ 22586327 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 30% T:[ 0.078488 ] S:[ 22586327 ]
-Fill -- S1:[ 0 ] S2:[ 22586327 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 40% Num Insertions: 16384000 T:[ 0.039411 ] S1:[ 22586327 ] S2:[ 38970327 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 40% T:[ 0.000213 ] S:[ 38970327 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 40% T:[ 0.000743 ] S:[ 38970327 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 40% T:[ 0.078518 ] S:[ 38970327 ]
-Fill -- S1:[ 0 ] S2:[ 38970327 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 50% Num Insertions: 16384000 T:[ 0.039553 ] S1:[ 38970327 ] S2:[ 55354327 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 50% T:[ 0.000213 ] S:[ 55354327 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 50% T:[ 0.000743 ] S:[ 55354327 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 50% T:[ 0.078568 ] S:[ 55354327 ]
-Fill -- S1:[ 0 ] S2:[ 12404654 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 60% Num Insertions: 16384000 T:[ 0.039419 ] S1:[ 12404654 ] S2:[ 28788654 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 60% T:[ 0.000213 ] S:[ 28788654 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 60% T:[ 0.000743 ] S:[ 28788654 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 60% T:[ 0.078487 ] S:[ 28788654 ]
-Fill -- S1:[ 0 ] S2:[ 28788654 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 70% Num Insertions: 16384000 T:[ 0.039458 ] S1:[ 28788654 ] S2:[ 45172654 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 70% T:[ 0.000213 ] S:[ 45172654 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 70% T:[ 0.000743 ] S:[ 45172654 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 70% T:[ 0.078516 ] S:[ 45172654 ]
-Fill -- S1:[ 0 ] S2:[ 2222981 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 80% Num Insertions: 16384000 T:[ 0.039425 ] S1:[ 2222981 ] S2:[ 18606981 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 80% T:[ 0.000213 ] S:[ 18606981 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 80% T:[ 0.000743 ] S:[ 18606981 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 80% T:[ 0.078526 ] S:[ 18606981 ]
-Fill -- S1:[ 0 ] S2:[ 18606981 ]
-Insertion Test -- Capacity = 163840000 -- Percent Full = 90% Num Insertions: 16384000 T:[ 0.039401 ] S1:[ 18606981 ] S2:[ 34990981 ]
-Find Test -- Capacity = 163840000 -- Percent Full = 90% T:[ 0.000213 ] S:[ 34990981 ]
-Single Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 90% T:[ 0.000743 ] S:[ 34990981 ]
-Multiple Repeated Insertion Test -- Capacity = 163840000 -- Percent Full = 90% T:[ 0.078577 ] S:[ 34990981 ]
-KokkosP: Kernel timing written to /home/bbogale/hash_profiling/Kokkos_Hash_Profiling/tellico-compute0-8784.dat 
+I C 10000 F 10 T 0.000058 I 5120
+FT C 10000 F 10 T 0.000032 I 5120
+SI C 10000 F 10 T 0.000024 I 5120
+MI C 10000 F 10 T 0.000049 I 5120
+I C 10000 F 20 T 0.000051 I 5120
+FT C 10000 F 20 T 0.000018 I 5120
+SI C 10000 F 20 T 0.000019 I 5120
+MI C 10000 F 20 T 0.000048 I 5120
+I C 10000 F 30 T 0.000055 I 5120
+FT C 10000 F 30 T 0.000019 I 5120
+SI C 10000 F 30 T 0.000019 I 5120
+MI C 10000 F 30 T 0.000048 I 5120
+I C 10000 F 40 T 0.000053 I 5120
+FT C 10000 F 40 T 0.000017 I 5120
+SI C 10000 F 40 T 0.000019 I 5120
+MI C 10000 F 40 T 0.000048 I 5120
+I C 10000 F 50 T 0.000057 I 4999
+FT C 10000 F 50 T 0.000018 I 4999
+SI C 10000 F 50 T 0.000019 I 5120
+MI C 10000 F 50 T 0.000047 I 5120
+I C 10000 F 60 T 0.000055 I 3999
+FT C 10000 F 60 T 0.000017 I 3999
+SI C 10000 F 60 T 0.000019 I 5120
+MI C 10000 F 60 T 0.000047 I 5120
+I C 10000 F 70 T 0.000057 I 2999
+FT C 10000 F 70 T 0.000018 I 2999
+SI C 10000 F 70 T 0.000019 I 5120
+MI C 10000 F 70 T 0.000047 I 5120
+I C 10000 F 80 T 0.000055 I 1999
+FT C 10000 F 80 T 0.000017 I 1999
+SI C 10000 F 80 T 0.000019 I 5120
+MI C 10000 F 80 T 0.000048 I 5120
+I C 10000 F 90 T 0.000053 I 999
+FT C 10000 F 90 T 0.000018 I 999
+SI C 10000 F 90 T 0.000019 I 5120
+MI C 10000 F 90 T 0.000048 I 5120
+I C 20000 F 10 T 0.000047 I 5120
+FT C 20000 F 10 T 0.000019 I 5120
+SI C 20000 F 10 T 0.000019 I 5120
+MI C 20000 F 10 T 0.000046 I 5120
+I C 20000 F 20 T 0.000048 I 5120
+FT C 20000 F 20 T 0.000017 I 5120
+SI C 20000 F 20 T 0.000019 I 5120
+MI C 20000 F 20 T 0.000046 I 5120
+I C 20000 F 30 T 0.000048 I 5120
+FT C 20000 F 30 T 0.000019 I 5120
+SI C 20000 F 30 T 0.000019 I 5120
+MI C 20000 F 30 T 0.000046 I 5120
+I C 20000 F 40 T 0.000052 I 5120
+FT C 20000 F 40 T 0.000017 I 5120
+SI C 20000 F 40 T 0.000019 I 5120
+MI C 20000 F 40 T 0.000046 I 5120
+I C 20000 F 50 T 0.000050 I 5120
+FT C 20000 F 50 T 0.000018 I 5120
+SI C 20000 F 50 T 0.000019 I 5120
+MI C 20000 F 50 T 0.000046 I 5120
+I C 20000 F 60 T 0.000051 I 5120
+FT C 20000 F 60 T 0.000017 I 5120
+SI C 20000 F 60 T 0.000019 I 5120
+MI C 20000 F 60 T 0.000047 I 5120
+I C 20000 F 70 T 0.000055 I 5120
+FT C 20000 F 70 T 0.000018 I 5120
+SI C 20000 F 70 T 0.000019 I 5120
+MI C 20000 F 70 T 0.000047 I 5120
+I C 20000 F 80 T 0.000055 I 3999
+FT C 20000 F 80 T 0.000017 I 3999
+SI C 20000 F 80 T 0.000019 I 5120
+MI C 20000 F 80 T 0.000047 I 5120
+I C 20000 F 90 T 0.000053 I 1999
+FT C 20000 F 90 T 0.000018 I 1999
+SI C 20000 F 90 T 0.000019 I 5120
+MI C 20000 F 90 T 0.000046 I 5120
+I C 40000 F 10 T 0.000047 I 5120
+FT C 40000 F 10 T 0.000019 I 5120
+SI C 40000 F 10 T 0.000019 I 5120
+MI C 40000 F 10 T 0.000047 I 5120
+I C 40000 F 20 T 0.000048 I 5120
+FT C 40000 F 20 T 0.000017 I 5120
+SI C 40000 F 20 T 0.000019 I 5120
+MI C 40000 F 20 T 0.000047 I 5120
+I C 40000 F 30 T 0.000049 I 5120
+FT C 40000 F 30 T 0.000018 I 5120
+SI C 40000 F 30 T 0.000019 I 5120
+MI C 40000 F 30 T 0.000047 I 5120
+I C 40000 F 40 T 0.000048 I 5120
+FT C 40000 F 40 T 0.000017 I 5120
+SI C 40000 F 40 T 0.000019 I 5120
+MI C 40000 F 40 T 0.000046 I 5120
+I C 40000 F 50 T 0.000049 I 5120
+FT C 40000 F 50 T 0.000018 I 5120
+SI C 40000 F 50 T 0.000019 I 5120
+MI C 40000 F 50 T 0.000046 I 5120
+I C 40000 F 60 T 0.000049 I 5120
+FT C 40000 F 60 T 0.000017 I 5120
+SI C 40000 F 60 T 0.000019 I 5120
+MI C 40000 F 60 T 0.000047 I 5120
+I C 40000 F 70 T 0.000051 I 5120
+FT C 40000 F 70 T 0.000018 I 5120
+SI C 40000 F 70 T 0.000019 I 5120
+MI C 40000 F 70 T 0.000047 I 5120
+I C 40000 F 80 T 0.000053 I 5120
+FT C 40000 F 80 T 0.000017 I 5120
+SI C 40000 F 80 T 0.000019 I 5120
+MI C 40000 F 80 T 0.000047 I 5120
+I C 40000 F 90 T 0.000055 I 3999
+FT C 40000 F 90 T 0.000017 I 3999
+SI C 40000 F 90 T 0.000019 I 5120
+MI C 40000 F 90 T 0.000047 I 5120
+I C 80000 F 10 T 0.000049 I 8000
+FT C 80000 F 10 T 0.000019 I 8000
+SI C 80000 F 10 T 0.000020 I 8000
+MI C 80000 F 10 T 0.000061 I 8000
+I C 80000 F 20 T 0.000047 I 8000
+FT C 80000 F 20 T 0.000018 I 8000
+SI C 80000 F 20 T 0.000020 I 8000
+MI C 80000 F 20 T 0.000062 I 8000
+I C 80000 F 30 T 0.000047 I 8000
+FT C 80000 F 30 T 0.000018 I 8000
+SI C 80000 F 30 T 0.000020 I 8000
+MI C 80000 F 30 T 0.000062 I 8000
+I C 80000 F 40 T 0.000051 I 8000
+FT C 80000 F 40 T 0.000018 I 8000
+SI C 80000 F 40 T 0.000020 I 8000
+MI C 80000 F 40 T 0.000062 I 8000
+I C 80000 F 50 T 0.000049 I 8000
+FT C 80000 F 50 T 0.000018 I 8000
+SI C 80000 F 50 T 0.000019 I 8000
+MI C 80000 F 50 T 0.000062 I 8000
+I C 80000 F 60 T 0.000052 I 8000
+FT C 80000 F 60 T 0.000018 I 8000
+SI C 80000 F 60 T 0.000020 I 8000
+MI C 80000 F 60 T 0.000063 I 8000
+I C 80000 F 70 T 0.000051 I 8000
+FT C 80000 F 70 T 0.000018 I 8000
+SI C 80000 F 70 T 0.000020 I 8000
+MI C 80000 F 70 T 0.000063 I 8000
+I C 80000 F 80 T 0.000054 I 8000
+FT C 80000 F 80 T 0.000018 I 8000
+SI C 80000 F 80 T 0.000019 I 8000
+MI C 80000 F 80 T 0.000061 I 8000
+I C 80000 F 90 T 0.000056 I 8000
+FT C 80000 F 90 T 0.000018 I 8000
+SI C 80000 F 90 T 0.000020 I 8000
+MI C 80000 F 90 T 0.000061 I 8000
+I C 160000 F 10 T 0.000052 I 16000
+FT C 160000 F 10 T 0.000019 I 16000
+SI C 160000 F 10 T 0.000022 I 16000
+MI C 160000 F 10 T 0.000104 I 16000
+I C 160000 F 20 T 0.000052 I 16000
+FT C 160000 F 20 T 0.000018 I 16000
+SI C 160000 F 20 T 0.000020 I 16000
+MI C 160000 F 20 T 0.000105 I 16000
+I C 160000 F 30 T 0.000052 I 16000
+FT C 160000 F 30 T 0.000019 I 16000
+SI C 160000 F 30 T 0.000020 I 16000
+MI C 160000 F 30 T 0.000104 I 16000
+I C 160000 F 40 T 0.000054 I 16000
+FT C 160000 F 40 T 0.000018 I 16000
+SI C 160000 F 40 T 0.000020 I 16000
+MI C 160000 F 40 T 0.000104 I 16000
+I C 160000 F 50 T 0.000053 I 16000
+FT C 160000 F 50 T 0.000017 I 16000
+SI C 160000 F 50 T 0.000022 I 16000
+MI C 160000 F 50 T 0.000105 I 16000
+I C 160000 F 60 T 0.000053 I 16000
+FT C 160000 F 60 T 0.000019 I 16000
+SI C 160000 F 60 T 0.000020 I 16000
+MI C 160000 F 60 T 0.000106 I 16000
+I C 160000 F 70 T 0.000054 I 16000
+FT C 160000 F 70 T 0.000018 I 16000
+SI C 160000 F 70 T 0.000021 I 16000
+MI C 160000 F 70 T 0.000104 I 16000
+I C 160000 F 80 T 0.000056 I 16000
+FT C 160000 F 80 T 0.000018 I 16000
+SI C 160000 F 80 T 0.000020 I 16000
+MI C 160000 F 80 T 0.000105 I 16000
+I C 160000 F 90 T 0.000064 I 16000
+FT C 160000 F 90 T 0.000018 I 16000
+SI C 160000 F 90 T 0.000019 I 16000
+MI C 160000 F 90 T 0.000102 I 16000
+I C 320000 F 10 T 0.000070 I 32000
+FT C 320000 F 10 T 0.000020 I 32000
+SI C 320000 F 10 T 0.000024 I 32000
+MI C 320000 F 10 T 0.000197 I 32000
+I C 320000 F 20 T 0.000073 I 32000
+FT C 320000 F 20 T 0.000019 I 32000
+SI C 320000 F 20 T 0.000023 I 32000
+MI C 320000 F 20 T 0.000202 I 32000
+I C 320000 F 30 T 0.000073 I 32000
+FT C 320000 F 30 T 0.000019 I 32000
+SI C 320000 F 30 T 0.000024 I 32000
+MI C 320000 F 30 T 0.000204 I 32000
+I C 320000 F 40 T 0.000074 I 32000
+FT C 320000 F 40 T 0.000019 I 32000
+SI C 320000 F 40 T 0.000022 I 32000
+MI C 320000 F 40 T 0.000211 I 32000
+I C 320000 F 50 T 0.000073 I 32000
+FT C 320000 F 50 T 0.000019 I 32000
+SI C 320000 F 50 T 0.000022 I 32000
+MI C 320000 F 50 T 0.000201 I 32000
+I C 320000 F 60 T 0.000074 I 32000
+FT C 320000 F 60 T 0.000019 I 32000
+SI C 320000 F 60 T 0.000022 I 32000
+MI C 320000 F 60 T 0.000202 I 32000
+I C 320000 F 70 T 0.000075 I 32000
+FT C 320000 F 70 T 0.000019 I 32000
+SI C 320000 F 70 T 0.000022 I 32000
+MI C 320000 F 70 T 0.000212 I 32000
+I C 320000 F 80 T 0.000076 I 32000
+FT C 320000 F 80 T 0.000018 I 32000
+SI C 320000 F 80 T 0.000022 I 32000
+MI C 320000 F 80 T 0.000201 I 32000
+I C 320000 F 90 T 0.000080 I 32000
+FT C 320000 F 90 T 0.000019 I 32000
+SI C 320000 F 90 T 0.000022 I 32000
+MI C 320000 F 90 T 0.000207 I 32000
+I C 640000 F 10 T 0.000115 I 64000
+FT C 640000 F 10 T 0.000020 I 64000
+SI C 640000 F 10 T 0.000026 I 64000
+MI C 640000 F 10 T 0.000375 I 64000
+I C 640000 F 20 T 0.000116 I 64000
+FT C 640000 F 20 T 0.000020 I 64000
+SI C 640000 F 20 T 0.000025 I 64000
+MI C 640000 F 20 T 0.000381 I 64000
+I C 640000 F 30 T 0.000117 I 64000
+FT C 640000 F 30 T 0.000019 I 64000
+SI C 640000 F 30 T 0.000025 I 64000
+MI C 640000 F 30 T 0.000366 I 64000
+I C 640000 F 40 T 0.000120 I 64000
+FT C 640000 F 40 T 0.000019 I 64000
+SI C 640000 F 40 T 0.000025 I 64000
+MI C 640000 F 40 T 0.000385 I 64000
+I C 640000 F 50 T 0.000125 I 64000
+FT C 640000 F 50 T 0.000019 I 64000
+SI C 640000 F 50 T 0.000025 I 64000
+MI C 640000 F 50 T 0.000366 I 64000
+I C 640000 F 60 T 0.000120 I 64000
+FT C 640000 F 60 T 0.000019 I 64000
+SI C 640000 F 60 T 0.000025 I 64000
+MI C 640000 F 60 T 0.000366 I 64000
+I C 640000 F 70 T 0.000122 I 64000
+FT C 640000 F 70 T 0.000020 I 64000
+SI C 640000 F 70 T 0.000025 I 64000
+MI C 640000 F 70 T 0.000388 I 64000
+I C 640000 F 80 T 0.000124 I 64000
+FT C 640000 F 80 T 0.000019 I 64000
+SI C 640000 F 80 T 0.000032 I 64000
+MI C 640000 F 80 T 0.000370 I 64000
+I C 640000 F 90 T 0.000127 I 64000
+FT C 640000 F 90 T 0.000019 I 64000
+SI C 640000 F 90 T 0.000026 I 64000
+MI C 640000 F 90 T 0.000385 I 64000
+I C 1280000 F 10 T 0.000226 I 128000
+FT C 1280000 F 10 T 0.000021 I 128000
+SI C 1280000 F 10 T 0.000030 I 128000
+MI C 1280000 F 10 T 0.000760 I 128000
+I C 1280000 F 20 T 0.000231 I 128000
+FT C 1280000 F 20 T 0.000020 I 128000
+SI C 1280000 F 20 T 0.000029 I 128000
+MI C 1280000 F 20 T 0.000754 I 128000
+I C 1280000 F 30 T 0.000238 I 128000
+FT C 1280000 F 30 T 0.000020 I 128000
+SI C 1280000 F 30 T 0.000029 I 128000
+MI C 1280000 F 30 T 0.000792 I 128000
+I C 1280000 F 40 T 0.000242 I 128000
+FT C 1280000 F 40 T 0.000021 I 128000
+SI C 1280000 F 40 T 0.000029 I 128000
+MI C 1280000 F 40 T 0.000769 I 128000
+I C 1280000 F 50 T 0.000248 I 128000
+FT C 1280000 F 50 T 0.000020 I 128000
+SI C 1280000 F 50 T 0.000030 I 128000
+MI C 1280000 F 50 T 0.000783 I 128000
+I C 1280000 F 60 T 0.000249 I 128000
+FT C 1280000 F 60 T 0.000020 I 128000
+SI C 1280000 F 60 T 0.000029 I 128000
+MI C 1280000 F 60 T 0.000778 I 128000
+I C 1280000 F 70 T 0.000248 I 128000
+FT C 1280000 F 70 T 0.000020 I 128000
+SI C 1280000 F 70 T 0.000029 I 128000
+MI C 1280000 F 70 T 0.000658 I 128000
+I C 1280000 F 80 T 0.000251 I 128000
+FT C 1280000 F 80 T 0.000020 I 128000
+SI C 1280000 F 80 T 0.000028 I 128000
+MI C 1280000 F 80 T 0.000740 I 128000
+I C 1280000 F 90 T 0.000255 I 128000
+FT C 1280000 F 90 T 0.000020 I 128000
+SI C 1280000 F 90 T 0.000029 I 128000
+MI C 1280000 F 90 T 0.000668 I 128000
+I C 2560000 F 10 T 0.000470 I 256000
+FT C 2560000 F 10 T 0.000022 I 256000
+SI C 2560000 F 10 T 0.000034 I 256000
+MI C 2560000 F 10 T 0.001339 I 256000
+I C 2560000 F 20 T 0.000480 I 256000
+FT C 2560000 F 20 T 0.000021 I 256000
+SI C 2560000 F 20 T 0.000034 I 256000
+MI C 2560000 F 20 T 0.001339 I 256000
+I C 2560000 F 30 T 0.000487 I 256000
+FT C 2560000 F 30 T 0.000021 I 256000
+SI C 2560000 F 30 T 0.000034 I 256000
+MI C 2560000 F 30 T 0.001339 I 256000
+I C 2560000 F 40 T 0.000501 I 256000
+FT C 2560000 F 40 T 0.000021 I 256000
+SI C 2560000 F 40 T 0.000035 I 256000
+MI C 2560000 F 40 T 0.001338 I 256000
+I C 2560000 F 50 T 0.000499 I 256000
+FT C 2560000 F 50 T 0.000021 I 256000
+SI C 2560000 F 50 T 0.000034 I 256000
+MI C 2560000 F 50 T 0.001339 I 256000
+I C 2560000 F 60 T 0.000510 I 256000
+FT C 2560000 F 60 T 0.000022 I 256000
+SI C 2560000 F 60 T 0.000034 I 256000
+MI C 2560000 F 60 T 0.001336 I 256000
+I C 2560000 F 70 T 0.000514 I 256000
+FT C 2560000 F 70 T 0.000022 I 256000
+SI C 2560000 F 70 T 0.000034 I 256000
+MI C 2560000 F 70 T 0.001339 I 256000
+I C 2560000 F 80 T 0.000520 I 256000
+FT C 2560000 F 80 T 0.000021 I 256000
+SI C 2560000 F 80 T 0.000034 I 256000
+MI C 2560000 F 80 T 0.001338 I 256000
+I C 2560000 F 90 T 0.000525 I 256000
+FT C 2560000 F 90 T 0.000021 I 256000
+SI C 2560000 F 90 T 0.000034 I 256000
+MI C 2560000 F 90 T 0.001341 I 256000
+I C 5120000 F 10 T 0.000974 I 512000
+FT C 5120000 F 10 T 0.000025 I 512000
+SI C 5120000 F 10 T 0.000047 I 512000
+MI C 5120000 F 10 T 0.002580 I 512000
+I C 5120000 F 20 T 0.000994 I 512000
+FT C 5120000 F 20 T 0.000024 I 512000
+SI C 5120000 F 20 T 0.000047 I 512000
+MI C 5120000 F 20 T 0.002580 I 512000
+I C 5120000 F 30 T 0.001009 I 512000
+FT C 5120000 F 30 T 0.000024 I 512000
+SI C 5120000 F 30 T 0.000047 I 512000
+MI C 5120000 F 30 T 0.002579 I 512000
+I C 5120000 F 40 T 0.001026 I 512000
+FT C 5120000 F 40 T 0.000024 I 512000
+SI C 5120000 F 40 T 0.000046 I 512000
+MI C 5120000 F 40 T 0.002564 I 512000
+I C 5120000 F 50 T 0.001040 I 512000
+FT C 5120000 F 50 T 0.000024 I 512000
+SI C 5120000 F 50 T 0.000046 I 512000
+MI C 5120000 F 50 T 0.002564 I 512000
+I C 5120000 F 60 T 0.001050 I 512000
+FT C 5120000 F 60 T 0.000024 I 512000
+SI C 5120000 F 60 T 0.000044 I 512000
+MI C 5120000 F 60 T 0.002564 I 512000
+I C 5120000 F 70 T 0.001064 I 512000
+FT C 5120000 F 70 T 0.000024 I 512000
+SI C 5120000 F 70 T 0.000047 I 512000
+MI C 5120000 F 70 T 0.002564 I 512000
+I C 5120000 F 80 T 0.001075 I 512000
+FT C 5120000 F 80 T 0.000024 I 512000
+SI C 5120000 F 80 T 0.000046 I 512000
+MI C 5120000 F 80 T 0.002563 I 512000
+I C 5120000 F 90 T 0.001099 I 512000
+FT C 5120000 F 90 T 0.000024 I 512000
+SI C 5120000 F 90 T 0.000046 I 512000
+MI C 5120000 F 90 T 0.002563 I 512000
+I C 10240000 F 10 T 0.002059 I 1024000
+FT C 10240000 F 10 T 0.000031 I 1024000
+SI C 10240000 F 10 T 0.000070 I 1024000
+MI C 10240000 F 10 T 0.004963 I 1024000
+I C 10240000 F 20 T 0.002086 I 1024000
+FT C 10240000 F 20 T 0.000030 I 1024000
+SI C 10240000 F 20 T 0.000070 I 1024000
+MI C 10240000 F 20 T 0.004801 I 1024000
+I C 10240000 F 30 T 0.002112 I 1024000
+FT C 10240000 F 30 T 0.000030 I 1024000
+SI C 10240000 F 30 T 0.000068 I 1024000
+MI C 10240000 F 30 T 0.004756 I 1024000
+I C 10240000 F 40 T 0.002139 I 1024000
+FT C 10240000 F 40 T 0.000029 I 1024000
+SI C 10240000 F 40 T 0.000067 I 1024000
+MI C 10240000 F 40 T 0.004756 I 1024000
+I C 10240000 F 50 T 0.002165 I 1024000
+FT C 10240000 F 50 T 0.000030 I 1024000
+SI C 10240000 F 50 T 0.000067 I 1024000
+MI C 10240000 F 50 T 0.004756 I 1024000
+I C 10240000 F 60 T 0.002195 I 1024000
+FT C 10240000 F 60 T 0.000030 I 1024000
+SI C 10240000 F 60 T 0.000068 I 1024000
+MI C 10240000 F 60 T 0.004755 I 1024000
+I C 10240000 F 70 T 0.002217 I 1024000
+FT C 10240000 F 70 T 0.000030 I 1024000
+SI C 10240000 F 70 T 0.000068 I 1024000
+MI C 10240000 F 70 T 0.004756 I 1024000
+I C 10240000 F 80 T 0.002255 I 1024000
+FT C 10240000 F 80 T 0.000030 I 1024000
+SI C 10240000 F 80 T 0.000068 I 1024000
+MI C 10240000 F 80 T 0.004752 I 1024000
+I C 10240000 F 90 T 0.002315 I 1024000
+FT C 10240000 F 90 T 0.000033 I 1024000
+SI C 10240000 F 90 T 0.000068 I 1024000
+MI C 10240000 F 90 T 0.004752 I 1024000
+I C 20480000 F 10 T 0.004382 I 2048000
+FT C 20480000 F 10 T 0.000041 I 2048000
+SI C 20480000 F 10 T 0.000112 I 2048000
+MI C 20480000 F 10 T 0.009801 I 2048000
+I C 20480000 F 20 T 0.004420 I 2048000
+FT C 20480000 F 20 T 0.000041 I 2048000
+SI C 20480000 F 20 T 0.000111 I 2048000
+MI C 20480000 F 20 T 0.009754 I 2048000
+I C 20480000 F 30 T 0.004464 I 2048000
+FT C 20480000 F 30 T 0.000041 I 2048000
+SI C 20480000 F 30 T 0.000111 I 2048000
+MI C 20480000 F 30 T 0.009756 I 2048000
+I C 20480000 F 40 T 0.004511 I 2048000
+FT C 20480000 F 40 T 0.000041 I 2048000
+SI C 20480000 F 40 T 0.000111 I 2048000
+MI C 20480000 F 40 T 0.009751 I 2048000
+I C 20480000 F 50 T 0.004562 I 2048000
+FT C 20480000 F 50 T 0.000041 I 2048000
+SI C 20480000 F 50 T 0.000112 I 2048000
+MI C 20480000 F 50 T 0.009754 I 2048000
+I C 20480000 F 60 T 0.004611 I 2048000
+FT C 20480000 F 60 T 0.000041 I 2048000
+SI C 20480000 F 60 T 0.000111 I 2048000
+MI C 20480000 F 60 T 0.009753 I 2048000
+I C 20480000 F 70 T 0.004665 I 2048000
+FT C 20480000 F 70 T 0.000044 I 2048000
+SI C 20480000 F 70 T 0.000111 I 2048000
+MI C 20480000 F 70 T 0.009798 I 2048000
+I C 20480000 F 80 T 0.004737 I 2048000
+FT C 20480000 F 80 T 0.000041 I 2048000
+SI C 20480000 F 80 T 0.000109 I 2048000
+MI C 20480000 F 80 T 0.009581 I 2048000
+I C 20480000 F 90 T 0.004890 I 2048000
+FT C 20480000 F 90 T 0.000041 I 2048000
+SI C 20480000 F 90 T 0.000109 I 2048000
+MI C 20480000 F 90 T 0.009581 I 2048000
+I C 40960000 F 10 T 0.009272 I 4096000
+FT C 40960000 F 10 T 0.000064 I 4096000
+SI C 40960000 F 10 T 0.000198 I 4096000
+MI C 40960000 F 10 T 0.018864 I 4096000
+I C 40960000 F 20 T 0.009313 I 4096000
+FT C 40960000 F 20 T 0.000063 I 4096000
+SI C 40960000 F 20 T 0.000197 I 4096000
+MI C 40960000 F 20 T 0.018849 I 4096000
+I C 40960000 F 30 T 0.009388 I 4096000
+FT C 40960000 F 30 T 0.000064 I 4096000
+SI C 40960000 F 30 T 0.000198 I 4096000
+MI C 40960000 F 30 T 0.018850 I 4096000
+I C 40960000 F 40 T 0.009467 I 4096000
+FT C 40960000 F 40 T 0.000064 I 4096000
+SI C 40960000 F 40 T 0.000197 I 4096000
+MI C 40960000 F 40 T 0.018860 I 4096000
+I C 40960000 F 50 T 0.009549 I 4096000
+FT C 40960000 F 50 T 0.000063 I 4096000
+SI C 40960000 F 50 T 0.000197 I 4096000
+MI C 40960000 F 50 T 0.018852 I 4096000
+I C 40960000 F 60 T 0.009651 I 4096000
+FT C 40960000 F 60 T 0.000064 I 4096000
+SI C 40960000 F 60 T 0.000197 I 4096000
+MI C 40960000 F 60 T 0.018843 I 4096000
+I C 40960000 F 70 T 0.009746 I 4096000
+FT C 40960000 F 70 T 0.000063 I 4096000
+SI C 40960000 F 70 T 0.000197 I 4096000
+MI C 40960000 F 70 T 0.018861 I 4096000
+I C 40960000 F 80 T 0.009882 I 4096000
+FT C 40960000 F 80 T 0.000063 I 4096000
+SI C 40960000 F 80 T 0.000197 I 4096000
+MI C 40960000 F 80 T 0.018858 I 4096000
+I C 40960000 F 90 T 0.010280 I 4096000
+FT C 40960000 F 90 T 0.000064 I 4096000
+SI C 40960000 F 90 T 0.000198 I 4096000
+MI C 40960000 F 90 T 0.018849 I 4096000
+I C 81920000 F 10 T 0.019250 I 8192000
+FT C 81920000 F 10 T 0.000111 I 8192000
+SI C 81920000 F 10 T 0.000375 I 8192000
+MI C 81920000 F 10 T 0.038688 I 8192000
+I C 81920000 F 20 T 0.019312 I 8192000
+FT C 81920000 F 20 T 0.000109 I 8192000
+SI C 81920000 F 20 T 0.000374 I 8192000
+MI C 81920000 F 20 T 0.038685 I 8192000
+I C 81920000 F 30 T 0.019421 I 8192000
+FT C 81920000 F 30 T 0.000109 I 8192000
+SI C 81920000 F 30 T 0.000374 I 8192000
+MI C 81920000 F 30 T 0.038687 I 8192000
+I C 81920000 F 40 T 0.019571 I 8192000
+FT C 81920000 F 40 T 0.000109 I 8192000
+SI C 81920000 F 40 T 0.000374 I 8192000
+MI C 81920000 F 40 T 0.038680 I 8192000
+I C 81920000 F 50 T 0.019714 I 8192000
+FT C 81920000 F 50 T 0.000109 I 8192000
+SI C 81920000 F 50 T 0.000375 I 8192000
+MI C 81920000 F 50 T 0.038688 I 8192000
+I C 81920000 F 60 T 0.019261 I 8192000
+FT C 81920000 F 60 T 0.000109 I 8192000
+SI C 81920000 F 60 T 0.000374 I 8192000
+MI C 81920000 F 60 T 0.038682 I 8192000
+I C 81920000 F 70 T 0.019310 I 8192000
+FT C 81920000 F 70 T 0.000109 I 8192000
+SI C 81920000 F 70 T 0.000374 I 8192000
+MI C 81920000 F 70 T 0.038679 I 8192000
+I C 81920000 F 80 T 0.019418 I 8192000
+FT C 81920000 F 80 T 0.000112 I 8192000
+SI C 81920000 F 80 T 0.000375 I 8192000
+MI C 81920000 F 80 T 0.038685 I 8192000
+I C 81920000 F 90 T 0.019547 I 8192000
+FT C 81920000 F 90 T 0.000109 I 8192000
+SI C 81920000 F 90 T 0.000374 I 8192000
+MI C 81920000 F 90 T 0.038682 I 8192000
+I C 163840000 F 10 T 0.039368 I 16384000
+FT C 163840000 F 10 T 0.000203 I 16384000
+SI C 163840000 F 10 T 0.000729 I 16384000
+MI C 163840000 F 10 T 0.079274 I 16384000
+I C 163840000 F 20 T 0.039439 I 16384000
+FT C 163840000 F 20 T 0.000200 I 16384000
+SI C 163840000 F 20 T 0.000728 I 16384000
+MI C 163840000 F 20 T 0.079266 I 16384000
+I C 163840000 F 30 T 0.039398 I 16384000
+FT C 163840000 F 30 T 0.000200 I 16384000
+SI C 163840000 F 30 T 0.000728 I 16384000
+MI C 163840000 F 30 T 0.079256 I 16384000
+I C 163840000 F 40 T 0.039402 I 16384000
+FT C 163840000 F 40 T 0.000199 I 16384000
+SI C 163840000 F 40 T 0.000728 I 16384000
+MI C 163840000 F 40 T 0.079244 I 16384000
+I C 163840000 F 50 T 0.039549 I 16384000
+FT C 163840000 F 50 T 0.000200 I 16384000
+SI C 163840000 F 50 T 0.000728 I 16384000
+MI C 163840000 F 50 T 0.079261 I 16384000
+I C 163840000 F 60 T 0.039404 I 16384000
+FT C 163840000 F 60 T 0.000200 I 16384000
+SI C 163840000 F 60 T 0.000728 I 16384000
+MI C 163840000 F 60 T 0.079293 I 16384000
+I C 163840000 F 70 T 0.039451 I 16384000
+FT C 163840000 F 70 T 0.000199 I 16384000
+SI C 163840000 F 70 T 0.000729 I 16384000
+MI C 163840000 F 70 T 0.079284 I 16384000
+I C 163840000 F 80 T 0.039376 I 16384000
+FT C 163840000 F 80 T 0.000199 I 16384000
+SI C 163840000 F 80 T 0.000729 I 16384000
+MI C 163840000 F 80 T 0.079265 I 16384000
+I C 163840000 F 90 T 0.039393 I 16384000
+FT C 163840000 F 90 T 0.000200 I 16384000
+SI C 163840000 F 90 T 0.000741 I 16384000
+MI C 163840000 F 90 T 0.079261 I 16384000
