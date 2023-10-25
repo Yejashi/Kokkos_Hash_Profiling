@@ -3,6 +3,6 @@
 
 
 for i in {1..5}; do
-    srun -N 1 -C gpu ./bin/murmur3 15 > data/murmur3/tellico/data"$i".txt
+    srun -N 1 -C gpu ./bin/murmur3 11 > data/murmur3/tellico/fixed_run/data"$i".txt
 done
 
