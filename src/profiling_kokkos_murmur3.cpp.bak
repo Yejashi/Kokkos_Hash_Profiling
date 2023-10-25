@@ -213,11 +213,9 @@ int main(int argc, char** argv) {
         }
 
         int capacity_multiplier = atoi(argv[1]);
-        // int capacity = 10000;
-        int capacity = 80000;
-        // Kokkos::View<uint32_t*> sample_data("sample_data", capacity * pow(2, 15));
-        Kokkos::View<uint32_t*> sample_data("sample_data", capacity * pow(2, capacity_multiplier));
-        Kokkos::View<HashDigest*> sample_digests("sample_digests", capacity * pow(2, capacity_multiplier));
+        int capacity = 10000;
+        Kokkos::View<uint32_t*> sample_data("sample_data", capacity * pow(2, 15));
+        Kokkos::View<HashDigest*> sample_digests("sample_digests", capacity * pow(2, 15));
 
         create_sample_data(sample_data,sample_digests);
 
@@ -231,8 +229,7 @@ int main(int argc, char** argv) {
             //Test for different initial fills
             for (int j = 0; j < 9; ++j) {
                 int percent_full = 10 * (j + 1);
-                // int num_insertions = capacity * 0.1;
-                int num_insertions = 7000;
+                int num_insertions = capacity * 0.1;
                 int fill_size = (percent_full * capacity) / 100;
 
                 fill_until(device_hash, sample_data, sample_digests, fill_size);
